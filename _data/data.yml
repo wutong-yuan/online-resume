@@ -1,9 +1,9 @@
 basic:
   name: Yuanyuan Meng                      # name
   title: Software Development Engineer          # job title
-  avatar:
-    show: false                       # show or hide avatar
-    path: /assets/images/profile.png # avatar file path
+  # avatar:
+  #   show: false                       # show or hide avatar
+  #   path: /assets/images/profile.png # avatar file path
 
 contact:
   # meta
