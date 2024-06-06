@@ -98,7 +98,7 @@ experience:
   #   The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
 
   items:
-    - company: Amazon Web Services
+    - company: Amazon Web Services(AWS)
       link: 'https://aws.amazon.com/'
       tags: Full-time
       date: 2022.11 - now
@@ -109,7 +109,7 @@ experience:
         + First
         + Second
 
-    - company: Amazon Web Services
+    - company: Amazon Web Services(AWS)
       link: 'https://aws.amazon.com/'
       tags: Internship
       date: 2022.05 - 2022.07
@@ -214,7 +214,7 @@ education:
       link: 'https://www.scu.edu/'
       date: 2020 - 2022
       major: Computer Science and Engineering
-      degree: Master
+      degree: Master (GPA 3.86)
       # description: |
       #   Additional information for this institution.
       #   + First
