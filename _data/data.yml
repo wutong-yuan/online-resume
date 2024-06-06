@@ -2,7 +2,7 @@ basic:
   name: Yuanyuan Meng                      # name
   title: Software Development Engineer          # job title
   avatar:
-    show: true                       # show or hide avatar
+    show: false                       # show or hide avatar
     path: /assets/images/profile.png # avatar file path
 
 contact:
@@ -10,6 +10,7 @@ contact:
   location: San Jose, CA # location
   email: yuanmeng08@gmail.com    # email address
   phone: (408)9302587 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+    linkedin:                yuanyuan-meng          | www.linkedin.com/in/yuanyuan-meng
   # website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
 
   # gender:                  # gender or pronoun
