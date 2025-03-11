@@ -104,18 +104,18 @@ experience:
       description: |
         Your key responsibilities and achievements in the company.
         + Rails Framework Upgrade Project Lead | AWS | 2023-2024
-          • Led end-to-end upgrade of business-critical provisioning service from Rails 5.2 to 6.1, resolving 714 high-priority security risks and unblocking deployment pipeline after previous failed attempts
-          • Automated testing for 50 APIs across 12 environments and 5 regions (including ITAR, ADC), reducing testing time from days to 60 minutes and achieving 100% test coverage
-          • Successfully deployed to all commercial regions with zero customer impact; created comprehensive documentation suite including upgrade guides, automation procedures, and troubleshooting guides
+         + Led end-to-end upgrade of business-critical provisioning service from Rails 5.2 to 6.1, resolving 714 high-priority security risks and unblocking deployment pipeline after previous failed attempts
+         + Automated testing for 50 APIs across 12 environments and 5 regions (including ITAR, ADC), reducing testing time from days to 60 minutes and achieving 100% test coverage
+         + Successfully deployed to all commercial regions with zero customer impact; created comprehensive documentation suite including upgrade guides, automation procedures, and troubleshooting guides
 
         + System Architecture & Security Enhancement Lead | AWS | 2024
-          • Led critical security remediation effort analyzing 4.5M 5XX errors across 99 APIs, identifying and categorizing root causes across three teams' services
-          • Designed and implemented comprehensive error handling solution with CloudWatch and Grafana monitoring, enabling proactive detection and rapid resolution
-          • Established new monitoring frameworks and best practices for HTTP request handling, resulting in successful security sign-off and improved system reliability
+         + Led critical security remediation effort analyzing 4.5M 5XX errors across 99 APIs, identifying and categorizing root causes across three teams' services
+         + Designed and implemented comprehensive error handling solution with CloudWatch and Grafana monitoring, enabling proactive detection and rapid resolution
+         + Established new monitoring frameworks and best practices for HTTP request handling, resulting in successful security sign-off and improved system reliability
         + Technical Solution Design Lead | AWS | 2023
-          • Designed innovative workaround for critical partition build blocker
-          • Led solution design and implementation after previous attempts by multiple senior engineers failed, collaborating with team SDE II to validate and refine approach
-          • Created reusable design pattern successfully implemented across all new
+         + Designed innovative workaround for critical partition build blocker
+         + Led solution design and implementation after previous attempts by multiple senior engineers failed, collaborating with team SDE II to validate and refine approach
+         + Created reusable design pattern successfully implemented across all new
 
 
     - company: Amazon Web Services(AWS)
@@ -127,9 +127,9 @@ experience:
       description: |
         Your key responsibilities and achievements in the company.
         + Software Development Engineering Intern 
-          • Developed a full-stack web service with Ruby on Rails, React, and Bootstrap, offering customizable JSON data through three APIs.
-          • Designed a user interface with search, filters, pagination, sorting, and navigation links to other pages.
-          • Achieved 90% test coverage through unit testing using Rspec and FactoryBot.
+         + Developed a full-stack web service with Ruby on Rails, React, and Bootstrap, offering customizable JSON data through three APIs.
+         + Designed a user interface with search, filters, pagination, sorting, and navigation links to other pages.
+         + Achieved 90% test coverage through unit testing using Rspec and FactoryBot.
 
 project:
   show: false
