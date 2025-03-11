@@ -92,7 +92,7 @@ experience:
   show: true
   order: 2
   title: Experiences
-  # description: |
+  description: |
   Experienced Software Development Engineer with expertise in infrastructure services, API development, and system orchestration. Demonstrated track record of leading complex technical projects, improving operational efficiency, and delivering high-impact solutions. Strong focus on technical innovation, automation, and knowledge sharing.
   items:
     - company: Amazon Web Services(AWS)
