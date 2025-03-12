@@ -1,6 +1,6 @@
 basic:
   name: Yuanyuan Meng                      # name
-  title: Software Development Engineer II         # job title
+  # title: Software Development Engineer II         # job title
   avatar:
     show: false                       # show or hide avatar
     path: /assets/images/profile.png # avatar file path
@@ -83,7 +83,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    Experienced Full Stac Software Development Engineer with expertise in infrastructure services, API development, and AWS serices. Demonstrated track record of leading complex technical projects, improving operational efficiency, and delivering high-impact solutions. Strong focus on technical innovation, automation, and knowledge sharing.
+    Experienced Full Stack Software Development Engineer II with expertise in infrastructure services, API development, and AWS serices. Demonstrated track record of leading complex technical projects, improving operational efficiency, and delivering high-impact solutions. Strong focus on technical innovation, automation, and knowledge sharing.
 
 experience:
   show: true
@@ -103,14 +103,12 @@ experience:
         + Rails Framework Upgrade Project Lead
            + Led end-to-end upgrade of team's web service(600+ APIs) from Rails 5.2 to 6.1
            + Automated testing for 50 APIs across 12 environments and 5 regions, reducing testing time from days to 60 minutes
-           + Successfully deployed to all commercial regions with zero customer impact
            + Created comprehensive documentation suite including upgrade guides, automation procedures, and troubleshooting guides
         + System Architecture & Security Enhancement Lead
             + Led critical security remediation effort analyzing 4.5M 5XX errors across 99 APIs, identifying and categorizing root causes across three teams' services
             + Designed comprehensive error handling solutions, enabling proactive detection and rapid resolution
         + Technical Solution Design Lead
-            + Designed innovative workaround for critical partition build blocker
-            + Led reusable solution design and implementation 
+            + Designed innovative resuable solution for critical partition build blocker
 
     - company: Amazon Web Services(AWS)
       link: 'https://aws.amazon.com/'
@@ -120,9 +118,6 @@ experience:
       location: Cupertino, CA
       description: |
            + Developed a full-stack web service with Ruby on Rails, React, and Bootstrap, offering customizable JSON data through three APIs.
-           + Designed a user interface with search, filters, pagination, sorting, and navigation links to other pages.
-           + Achieved 90% test coverage through unit testing using Rspec and FactoryBot.
-
 project:
   show: false
   order: 3
