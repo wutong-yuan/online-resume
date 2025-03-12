@@ -190,7 +190,7 @@ skill:
     # - name: Cloud & Platforms
     #   item:
     #     - AWS
-    # - name: Programming
+    - name: Programming and Cloud
       item:
         - Java
         - Python
