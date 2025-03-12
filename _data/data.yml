@@ -136,7 +136,7 @@ project:
       tags:
       date: 2020 - 2022
       description: |
-        Desgined and developed collaborative filtering algorithms that predict the unknow reatings in the test data by learning users' preference from the training data.
+        Designed and developed collaborative filtering algorithms to predict unknown ratings by learning user preferences from training data.
 
 skill:
   show: true
