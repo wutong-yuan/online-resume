@@ -83,7 +83,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    Experienced Full Stack Software Development Engineer II with expertise in infrastructure services, API development, and AWS serices. Demonstrated track record of leading complex technical projects, improving operational efficiency, and delivering high-impact solutions. Strong focus on technical innovation, automation, and knowledge sharing.
+    Full Stack Software Development Engineer II with 2+ years of experience specializing in infrastructure services, API development, and AWS cloud solutions. Studied Web Search & Information Retrieval and Artificial Intelligence, focusing on machine learning algorithms, search engine optimization, and AI-driven problem-solving techniques.
 
 experience:
   show: true
@@ -96,17 +96,18 @@ experience:
     - company: Amazon Web Services(AWS)
       link: 'https://aws.amazon.com/'
       tags: Full-time
-      date: 2022.11 - Now
+      date: 2022.11 - Present
       role: Full stack software enginner
       location: Cupertino, CA
       description: |
         + Rails Framework Upgrade Project Lead
-           + Led end-to-end upgrade of team's web service(600+ APIs) from Rails 5.2 to 6.1
-           + Automated testing for 50 APIs across 12 environments and 5 regions, reducing testing time from days to 60 minutes
-           + Created comprehensive documentation suite including upgrade guides, automation procedures, and troubleshooting guides
+            + Led end-to-end upgrade of team's web service (600+ APIs) from Rails 5.2 to 6.1
+            + Automated testing for 50 APIs across 12 environments and 5 regions, reducing testing time by 95% (from days to 60 minutes)
+            + Created comprehensive documentation suite including upgrade guides, automation procedures, and troubleshooting guides
         + System Architecture & Security Enhancement Lead
-            + Led critical security remediation effort analyzing 4.5M 5XX errors across 99 APIs, identifying and categorizing root causes across three teams' services
-            + Designed comprehensive error handling solutions, enabling proactive detection and rapid resolution
+            + Led critical security remediation effort analyzing 4.5M 5XX errors across 99 APIs
+            + Identified and categorized root causes across three teams' services
+            + Designed and implemented comprehensive error handling solutions, enabling proactive detection and rapid resolution
         + Technical Solution Design Lead
             + Designed innovative resuable solution for critical partition build blocker
 
@@ -119,34 +120,23 @@ experience:
       description: |
            + Developed a full-stack web service with Ruby on Rails, React, and Bootstrap, offering customizable JSON data through three APIs.
 project:
-  show: false
+  show: true
   order: 3
   title: Projects
-  description: |
-    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
+  # description: |
+  #   The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
 
-    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
+  #   In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
 
-    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
+  #   The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
 
   items:
-    - name: Personal project
-      link: '#'
+    - name: Movie Recommendation System
+      # link: '#'
       tags:
-      date: 2015 - 2017
+      date: 2020 - 2022
       description: |
-        Personal project description...
-        + First
-        + Second
-
-    - name: OSS project
-      link:
-      tags: committer
-      date:
-      description: |
-        OSS project description...
-        + First
-        + Second
+        Desgined and developed collaborative filtering algorithms that predict the unknow reatings in the test data by learning users' preference from the training data.
 
 skill:
   show: true
@@ -191,7 +181,7 @@ skill:
         - Python
         - Ruby (Ruby on Rails)
         - Javascript (React)
-        - AWS
+        - AWS Services (CloudWatch, S3, SQS, Lambda, CDK)
     # - name: 
     #   item:
     #     - Skill H
