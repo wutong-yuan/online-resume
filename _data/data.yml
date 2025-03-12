@@ -110,8 +110,8 @@ experience:
             + Established new monitoring frameworks and best practices for HTTP request handling, resulting in successful security sign-off and improved system reliability
         + Technical Solution Design Lead
             + Designed innovative workaround for critical partition build blocker
-            + Led solution design and implementation after previous attempts by multiple senior engineers failed, collaborating with team SDE II to validate and refine approach
-            + Created reusable design pattern successfully implemented across all new
+            + Led solution design and implementation after previous attempts by multiple senior engineers failed, collaborating with team SDE to validate and refine approach
+            + Created reusable design pattern successfully implemented across all new regions
 
     - company: Amazon Web Services(AWS)
       link: 'https://aws.amazon.com/'
@@ -120,7 +120,6 @@ experience:
       role: Sodtware Development Intern
       location: Cupertino, CA
       description: |
-        Software Development Engineering Intern 
            + Developed a full-stack web service with Ruby on Rails, React, and Bootstrap, offering customizable JSON data through three APIs.
            + Designed a user interface with search, filters, pagination, sorting, and navigation links to other pages.
            + Achieved 90% test coverage through unit testing using Rspec and FactoryBot.
