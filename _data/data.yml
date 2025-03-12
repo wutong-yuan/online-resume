@@ -101,17 +101,17 @@ experience:
       location: Cupertino, CA
       description: |
         Rails Framework Upgrade Project Lead
-        + Led end-to-end upgrade of business-critical provisioning service from Rails 5.2 to 6.1, resolving 714 high-priority security risks and unblocking deployment pipeline after previous failed attempts
-        + Automated testing for 50 APIs across 12 environments and 5 regions (including ITAR, ADC), reducing testing time from days to 60 minutes and achieving 100% test coverage
-        + Successfully deployed to all commercial regions with zero customer impact; created comprehensive documentation suite including upgrade guides, automation procedures, and troubleshooting guides
+          + Led end-to-end upgrade of business-critical provisioning service from Rails 5.2 to 6.1, resolving 714 high-priority security risks and unblocking deployment pipeline after previous failed attempts
+          + Automated testing for 50 APIs across 12 environments and 5 regions (including ITAR, ADC), reducing testing time from days to 60 minutes and achieving 100% test coverage
+          + Successfully deployed to all commercial regions with zero customer impact; created comprehensive documentation suite including upgrade guides, automation procedures, and troubleshooting guides
         System Architecture & Security Enhancement Lead
-         + Led critical security remediation effort analyzing 4.5M 5XX errors across 99 APIs, identifying and categorizing root causes across three teams' services
-         + Designed and implemented comprehensive error handling solution with CloudWatch and Grafana monitoring, enabling proactive detection and rapid resolution
-         + Established new monitoring frameworks and best practices for HTTP request handling, resulting in successful security sign-off and improved system reliability
+           + Led critical security remediation effort analyzing 4.5M 5XX errors across 99 APIs, identifying and categorizing root causes across three teams' services
+           + Designed and implemented comprehensive error handling solution with CloudWatch and Grafana monitoring, enabling proactive detection and rapid resolution
+           + Established new monitoring frameworks and best practices for HTTP request handling, resulting in successful security sign-off and improved system reliability
         Technical Solution Design Lead
-         + Designed innovative workaround for critical partition build blocker
-         + Led solution design and implementation after previous attempts by multiple senior engineers failed, collaborating with team SDE II to validate and refine approach
-         + Created reusable design pattern successfully implemented across all new
+           + Designed innovative workaround for critical partition build blocker
+           + Led solution design and implementation after previous attempts by multiple senior engineers failed, collaborating with team SDE II to validate and refine approach
+           + Created reusable design pattern successfully implemented across all new
 
     - company: Amazon Web Services(AWS)
       link: 'https://aws.amazon.com/'
@@ -121,9 +121,9 @@ experience:
       location: Cupertino, CA
       description: |
         Software Development Engineering Intern 
-         + Developed a full-stack web service with Ruby on Rails, React, and Bootstrap, offering customizable JSON data through three APIs.
-         + Designed a user interface with search, filters, pagination, sorting, and navigation links to other pages.
-         + Achieved 90% test coverage through unit testing using Rspec and FactoryBot.
+           + Developed a full-stack web service with Ruby on Rails, React, and Bootstrap, offering customizable JSON data through three APIs.
+           + Designed a user interface with search, filters, pagination, sorting, and navigation links to other pages.
+           + Achieved 90% test coverage through unit testing using Rspec and FactoryBot.
 
 project:
   show: false
@@ -159,14 +159,14 @@ skill:
   show: true
   order: 4
   title: Skills
-  description: |
-  #   The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
+  # description: |
+  # #   The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
 
-  #   The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
+  # #   The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
 
-  #   When crafting your skills section, it's important to tailor it to the specific job you are applying for, and only include skills that are relevant to the position. This can help catch the attention of the hiring manager and demonstrate that you have the qualifications necessary to succeed in the role.
+  # #   When crafting your skills section, it's important to tailor it to the specific job you are applying for, and only include skills that are relevant to the position. This can help catch the attention of the hiring manager and demonstrate that you have the qualifications necessary to succeed in the role.
 
-  #   There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
+  # #   There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
 
   # items:
   #   - name: Java
