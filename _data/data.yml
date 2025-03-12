@@ -142,7 +142,8 @@ skill:
   show: true
   order: 4
   title: Skills
-  # description: |
+  description: |
+    Java, Python, Ruby on Rails, React.js, AWS Services(CloudWatch, S3, SQS, Lambda, CDK)
   # #   The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
 
   # #   The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
@@ -171,11 +172,11 @@ skill:
   #   - name: Skill I
   #     level: 3
 
-  groups:
+  # groups:
     # - name: Cloud & Platforms
     #   item:
     #     - AWS
-    - name: Java, Python, Ruby on Rails, React.js, AWS Services(CloudWatch, S3, SQS, Lambda, CDK)
+    # - name: 
       # item:
         # - Java
         # - Python
