@@ -175,13 +175,13 @@ skill:
     # - name: Cloud & Platforms
     #   item:
     #     - AWS
-    - name: Programming and Cloud
-      item:
-        - Java
-        - Python
-        - Ruby (Ruby on Rails)
-        - Javascript (React)
-        - AWS Services (CloudWatch, S3, SQS, Lambda, CDK)
+    - name: Java, Python, Ruby on Rails, React.js, AWS Services(CloudWatch, S3, SQS, Lambda, CDK)
+      # item:
+        # - Java
+        # - Python
+        # - Ruby (Ruby on Rails)
+        # - Javascript (React)
+        # - 
     # - name: 
     #   item:
     #     - Skill H
