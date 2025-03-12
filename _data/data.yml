@@ -101,18 +101,16 @@ experience:
       location: Cupertino, CA
       description: |
         + Rails Framework Upgrade Project Lead
-           + Led end-to-end upgrade of business-critical provisioning service from Rails 5.2 to 6.1, resolving 714 high-priority security risks and unblocking deployment after previous failed attempts
+           + Led end-to-end upgrade of team's web service(600+ APIs) from Rails 5.2 to 6.1
            + Automated testing for 50 APIs across 12 environments and 5 regions, reducing testing time from days to 60 minutes
            + Successfully deployed to all commercial regions with zero customer impact
            + Created comprehensive documentation suite including upgrade guides, automation procedures, and troubleshooting guides
         + System Architecture & Security Enhancement Lead
             + Led critical security remediation effort analyzing 4.5M 5XX errors across 99 APIs, identifying and categorizing root causes across three teams' services
             + Designed comprehensive error handling solutions, enabling proactive detection and rapid resolution
-            + Established new monitoring frameworks and best practices for HTTP request handling
         + Technical Solution Design Lead
             + Designed innovative workaround for critical partition build blocker
-            + Led solution design and implementation after previous attempts by multiple senior engineers failed, collaborating with team SDE to validate and refine approach
-            + Created reusable design pattern successfully implemented across all new regions
+            + Led reusable solution design and implementation 
 
     - company: Amazon Web Services(AWS)
       link: 'https://aws.amazon.com/'
@@ -189,15 +187,16 @@ skill:
   #     level: 3
 
   groups:
-    - name: Cloud & Platforms
-      item:
-        - AWS
-    - name: Programming
+    # - name: Cloud & Platforms
+    #   item:
+    #     - AWS
+    # - name: Programming
       item:
         - Java
         - Python
         - Ruby (Ruby on Rails)
         - Javascript (React)
+        - AWS
     # - name: 
     #   item:
     #     - Skill H
