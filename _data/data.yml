@@ -83,7 +83,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    Full Stack Software Development Engineer II with 2+ years of experience specializing in infrastructure services, API development, and AWS cloud solutions. Studied Web Search & Information Retrieval and Artificial Intelligence, focusing on machine learning algorithms, search engine optimization, and AI-driven problem-solving techniques.
+    Full Stack Software Development Engineer II with 2+ years of experience specializing in infrastructure services, API development, and AWS cloud solutions. Gained academic experience in Web Search & Information Retrieval and Artificial Intelligence, focusing on search algorithms, ranking models, and machine learning through coursework and projects.
 
 experience:
   show: true
@@ -97,25 +97,24 @@ experience:
       link: 'https://aws.amazon.com/'
       tags: Full-time
       date: 2022.11 - Present
-      role: Full stack software enginner
+      role: Full Stack Software Development enginner
       location: Cupertino, CA
       description: |
-        + Rails Framework Upgrade Project Lead
-            + Led end-to-end upgrade of team's web service (600+ APIs) from Rails 5.2 to 6.1
-            + Automated testing for 50 APIs across 12 environments and 5 regions, reducing testing time by 95% (from days to 60 minutes)
-            + Created comprehensive documentation suite including upgrade guides, automation procedures, and troubleshooting guides
-        + System Architecture & Security Enhancement Lead
-            + Led critical security remediation effort analyzing 4.5M 5XX errors across 99 APIs
-            + Identified and categorized root causes across three teams' services
-            + Designed and implemented comprehensive error handling solutions, enabling proactive detection and rapid resolution
-        + Technical Solution Design Lead
-            + Designed innovative resuable solution for critical partition build blocker
+        + Rails Framework Upgrade Project
+            + Performed end-to-end upgrade of one web service  with 600+ APIs from Rails 5.2 to 6.1, resolving 714 high-priority security risks and unblocking deployment pipeline
+            + Troubleshot issues and implemented solutions in collaboration with cross-functional teams
+            + Automated testing for 50 APIs across 12 environments and 5 regions, reducing testing time by 95%
+            + Created documentation suite including upgrade guides, automation procedures, and troubleshooting guides
+        + System Architecture & Security Enhancement
+            + Led the efforts to analyze 4.5 million 5XX errors for a web service with 600+ APIs across three team's services
+            + Collaborated with two teams to identify and categorize root causes of those 5XX errors
+            + Designed comprehensive error handling solutions for 99 APIs
 
     - company: Amazon Web Services(AWS)
       link: 'https://aws.amazon.com/'
       tags: Internship
       date: 2022.05 - 2022.07
-      role: Sodtware Development Intern
+      role: Software Development Intern
       location: Cupertino, CA
       description: |
            + Developed a full-stack web service with Ruby on Rails, React, and Bootstrap, offering customizable JSON data through three APIs.
