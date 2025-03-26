@@ -97,7 +97,7 @@ experience:
       link: 'https://aws.amazon.com/'
       tags: Full-time
       date: 2022.11 - Present
-      role: Full Stack Software Development Enginner II
+      role: Software Dev Engineer II (Full Stack)
       location: Cupertino, CA
       description: |
         + Rails Framework Upgrade Project
@@ -114,7 +114,7 @@ experience:
       link: 'https://aws.amazon.com/'
       tags: Internship
       date: 2022.05 - 2022.07
-      role: Software Development Intern
+      role: Software Dev Engineer Intern
       location: Cupertino, CA
       description: |
            + Developed a full-stack web service with Ruby on Rails, React, and Bootstrap, offering customizable JSON data through three APIs.
