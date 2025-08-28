@@ -83,7 +83,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    Full Stack Software Development Engineer II with 2.5 years of experience specializing in infrastructure services, API development, and AWS cloud solutions. Gained academic experience in Web Search & Information Retrieval and Artificial Intelligence, focusing on search algorithms, ranking models, and machine learning through coursework and projects.
+    Full Stack Software Development Engineer II with 3 years of experience specializing in infrastructure services, API development, and AWS cloud solutions. Gained academic experience in Web Search & Information Retrieval and Artificial Intelligence, focusing on search algorithms, ranking models, and machine learning through coursework and projects.
 
 experience:
   show: true
@@ -100,18 +100,16 @@ experience:
       role: Software Dev Engineer II (Full Stack)
       location: Cupertino, CA
       description: |
-        + Designed User Settings Persistence System
+        + User Settings Persistence System Design
             + Architected JSON-based settings upload/download system(UI+APIs) enabling cross-device configuration portability
         + System Architecture & Security Enhancement
-            + Led the efforts to analyze 4.5 million 5XX errors for a web service with 600+ APIs across three team's services
+            + Designed comprehensive error handling solutions for 99 APIs of a web service
             + Collaborated with two teams to identify and categorize root causes of those 5XX errors
-            + Designed comprehensive error handling solutions for 99 APIs
         + Rails Framework Upgrade Project
             + Performed end-to-end upgrade of one web service  with 600+ APIs from Rails 5.2 to 6.1, resolving 714 high-priority security risks and unblocking deployment pipeline
             + Troubleshot issues and implemented solutions in collaboration with cross-functional teams
             + Automated testing for 50 APIs across 12 environments and 5 regions, reducing testing time by 95%
             + Created documentation suite including upgrade guides, automation procedures, and troubleshooting guides
-
     - company: Amazon Web Services(AWS)
       link: 'https://aws.amazon.com/'
       tags: Internship
