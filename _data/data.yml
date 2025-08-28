@@ -101,7 +101,7 @@ experience:
       location: Cupertino, CA
       description: |
         + User Settings Persistence System Design
-            + Architected JSON-based settings upload/download system(UI+APIs) enabling cross-device configuration portability
+            + Architected JSON-based settings upload/download system(UI+APIs) enabling cross-device and cross region configuration portability
         + System Architecture & Security Enhancement
             + Designed comprehensive error handling solutions for 99 APIs of a web service
             + Collaborated with two teams to identify and categorize root causes of those 5XX errors
