@@ -119,7 +119,7 @@ experience:
       description: |
            + Developed a full-stack web service with Ruby on Rails, React, and Bootstrap, offering customizable JSON data through three APIs.
 project:
-  show: true
+  show: false
   order: 3
   title: Projects
   # description: |
