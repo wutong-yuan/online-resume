@@ -83,7 +83,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    Software Development Engineer II with 3+ years of experience building full-stack and backend platform solutions, with a focus on scalable web services, API reliability, and AWS cloud infrastructure. Proven track record of leading high-impact engineering initiatives across system design, security modernization, automation, and cross-team technical delivery.
+    Software Development Engineer II with 3+ years of experience building full-stack and backend platform solutions, with a focus on scalable web services, API reliability, data persistence (SQL & NoSQL), and AWS cloud infrastructure. Proven track record of leading high-impact engineering initiatives across system design, security modernization, automation, and cross-team technical delivery.
 
 experience:
   show: true
@@ -101,12 +101,12 @@ experience:
       location: Cupertino, CA
       description: |
         + User Settings Persistence System Design
-            + Architected JSON-based settings upload/download system(UI+APIs) enabling cross-device and cross region configuration portability
+            + Architected a JSON-based user settings persistence system (UI + APIs) backed by DynamoDB, enabling cross-device and cross-region configuration portability.
         + System Architecture & Security Enhancement
             + Designed comprehensive error handling solutions for 99 APIs of a web service
             + Collaborated with two teams to identify and categorize root causes of those 5XX errors
         + Rails Framework Upgrade Project
-            + Performed end-to-end upgrade of one web service  with 600+ APIs from Rails 5.2 to 6.1, resolving 714 high-priority security risks and unblocking deployment pipeline
+            + Performed end-to-end upgrade of a MySQL-backed Rails web service with 600+ APIs from Rails 5.2 to 6.1, resolving 714 high-priority security risks and unblocking the deployment pipeline.
             + Troubleshot issues and implemented solutions in collaboration with cross-functional teams
             + Automated testing for 50 APIs across 12 environments and 5 regions, reducing testing time by 95%
             + Created documentation suite including upgrade guides, automation procedures, and troubleshooting guides
