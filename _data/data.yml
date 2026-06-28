@@ -96,7 +96,7 @@ experience:
       link: 'https://aws.amazon.com/'
       tags: Full-time
       date: 2022.11 - Present
-      role: Software Dev Engineer II (Full Stack)
+      role: Software Dev Engineer
       location: Cupertino, CA
       description: |
         + __Distributed Host Provisioning Service system with 8K TPS, 100+ APIs, Web applications across 34 AWS regions, using RESTful APIs and MySQL)__
