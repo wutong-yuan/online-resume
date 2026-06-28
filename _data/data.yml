@@ -59,7 +59,7 @@ contact:
   artstation:              # username          | https://www.artstation.com/username
 
   other cv
-  linkedin:                 Yuanyuan Meng        | https://linkedin.com/in/username
+  linkedin:                 Yuanyuan Meng        | https://www.linkedin.com/in/yuanyuan-meng
   # indeed:                  # resumeid          | https://www.linkedin.com/in/yuanyuan-meng
   # xing:                    # username          | https://www.xing.com/profile/username
   # fiverr:                  # username          | https://www.fiverr.com/username
@@ -78,12 +78,12 @@ contact:
   goodreads:               # username          | https://www.goodreads.com/user/show/username
   strava:                  # useid             | https://www.strava.com/athletes/userid
 
-# profile:
-#   show: true
-#   order: 1
-#   title: Profile
-#   description: |
-#     Software Development Engineer II with 3.5+ years of experience building full-stack and backend platform solutions, with a focus on scalable web services, API reliability, data persistence (SQL & NoSQL), and AWS cloud infrastructure. Proven track record of leading high-impact engineering initiatives across system design, security modernization, automation, and cross-team technical delivery.
+profile:
+  show: false
+  order: 1
+  title: Profile
+  description: |
+    Software Development Engineer II with 3.5+ years of experience building full-stack and backend platform solutions, with a focus on scalable web services, API reliability, data persistence (SQL & NoSQL), and AWS cloud infrastructure. Proven track record of leading high-impact engineering initiatives across system design, security modernization, automation, and cross-team technical delivery.
 
 experience:
   show: true
