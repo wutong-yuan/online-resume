@@ -94,31 +94,31 @@ experience:
   #   The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
 
   items:
-    - company: Amazon Web Services(AWS)
+    - company: __Amazon Web Services__
       link: 'https://aws.amazon.com/'
       tags: Full-time
       date: 2022.11 - Present
       role: Software Dev Engineer II (Full Stack)
       location: Cupertino, CA
       description: |
-        + Host Provisioning Service (Distributed system with 8K TPS, 100+ APIs, Web applications across 34 AWS regions, using RESTful APIs and MySQL)
-            + __Redesigned__ the service error-handling mechanism across 100+ multi-team APIs to reduce the unhandled 500 error rate to 0%, unblocking a high-priority security review and eliminating persistent on-call pager friction.
-            + __Performed__ an end-to-end framework migration to resolve 714 high-priority compliance risks and unblock the global service deployment pipeline that required L8+ executive release sign-offs.
+        + __Distributed Host Provisioning Service system with 8K TPS, 100+ APIs, Web applications across 34 AWS regions, using RESTful APIs and MySQL)__
+            + __Redesigned__ the service error-handling mechanism across 100+ multi-team APIs to reduce the unhandled 500 error rate to __0%__, unblocking a high-priority security review and eliminating persistent on-call pager friction.
+            + __Performed__ an __end-to-end__ framework migration to resolve 714 high-priority compliance risks and unblock the global service deployment pipeline that required L8+ executive release sign-offs.
             + __Designed__ and __implemented__ an alternative cross-region routing topology during an infrastructure freeze to unblock launch tracks for dependent internal platform teams.
-            + __Designed__ and __implemented__ API testing automation, reducing verification time for 5 regions and 15 environments from 1 week to 30 minutes.
-            + __Authored__ a knowledge ecosystem consisting of 3 automation runbooks and 10 technical deep-dive wikis, establishing a standardized onboarding framework.
-        + Distributed Credential Management Service (Java, 7K TPS, 20+ APIs)
+            + __Designed__ and __implemented__ API testing automation, reducing verification time for 5 regions and 15 environments from __1 week to 30 minutes__.
+            + __Authored__ a knowledge ecosystem consisting of 3 service runbooks and 10 technical deep-dive wikis, establishing a standardized onboarding framework.
+        + __Distributed Credential Management Service (Java, 7K TPS, 20+ APIs)__
             + __Led__ the root cause investigation and authored the Correction of Errors (COE) document following a regional service outage; analyzed cascading service logic across stakeholder teams to publish a data-driven post-mortem ahead of a strict deadline, establishing 12 architecture and process action items that prevented recurring failures.
-        + Distributed Secure Tool (Java, Go, DynamoDB, 20+ APIs supporting all AWS regions with a volume of 800 requests per minute)
+        + __Distributed Secure Tool (Java, Go, DynamoDB, 20+ APIs supporting all AWS regions with a volume of 800 requests per minute)__
             + __Architected__ and __implemented__ a user settings persistence system (UI + APIs) backed by DynamoDB, enabling cross-device and cross-region configuration portability for platform users.
-    - company: Amazon Web Services(AWS)
+    - company: __Amazon Web Services__
       link: 'https://aws.amazon.com/'
       tags: Internship
       date: 2022.05 - 2022.07
       role: Software Dev Engineer Intern
       location: Cupertino, CA
       description: |
-           + Developed a full-stack web service with Ruby on Rails, React, and Bootstrap, offering customizable JSON data through three APIs.
+           + __Designed__ and __implemented__ a full-stack web service with Ruby on Rails, React, and Bootstrap, offering customizable JSON data through three APIs.
 project:
   show: false
   order: 3
