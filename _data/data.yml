@@ -10,6 +10,7 @@ contact:
   location: San Jose, CA # location
   email: yuanmeng08@gmail.com    # email address
   phone: (408)9302587 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  Linkedin: https://www.linkedin.com/in/yuanyuan-meng/
   # website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
 
   # gender:                  # gender or pronoun
@@ -79,7 +80,7 @@ contact:
   strava:                  # useid             | https://www.strava.com/athletes/userid
 
 profile:
-  show: true
+  show: false
   order: 1
   title: Profile
   description: |
@@ -100,16 +101,16 @@ experience:
       role: Software Dev Engineer II (Full Stack)
       location: Cupertino, CA
       description: |
-        + User Settings Persistence System Design
-            + Architected a JSON-based user settings persistence system (UI + APIs) backed by DynamoDB, enabling cross-device and cross-region configuration portability.
-        + System Architecture & Security Enhancement
-            + Designed comprehensive error handling solutions for 99 APIs of a web service
-            + Collaborated with two teams to identify and categorize root causes of those 5XX errors
-        + Rails Framework Upgrade Project
-            + Performed end-to-end upgrade of a MySQL-backed Rails web service with 600+ APIs from Rails 5.2 to 6.1, resolving 714 high-priority security risks and unblocking the deployment pipeline.
-            + Troubleshot issues and implemented solutions in collaboration with cross-functional teams
-            + Automated testing for 50 APIs across 12 environments and 5 regions, reducing testing time by 95%
-            + Created documentation suite including upgrade guides, automation procedures, and troubleshooting guides
+        + Host Provisioning Service (Distributed system with 8K TPS, 100+ APIs, Web applications across 34 AWS regions, using RESTful APIs and MySQL)
+            + Redesigned the service error-handling mechanism across 100+ multi-team APIs to reduce the unhandled 500 error rate to 0%, unblocking a high-priority security review and eliminating persistent on-call pager friction.
+            + Performed an end-to-end framework migration to resolve 714 high-priority compliance risks and unblock the global service deployment pipeline that required L8+ executive release sign-offs.
+            + Designed and implemented an alternative cross-region routing topology during an infrastructure freeze to unblock launch tracks for dependent internal platform teams.
+            + Designed and implemented API testing automation, reducing verification time for 5 regions and 15 environments from 1 week to 30 minutes.
+            + Authored a knowledge ecosystem consisting of 3 automation runbooks and 10 technical deep-dive wikis, establishing a standardized onboarding framework.
+        + Distributed Credential Management Service (Java, 7K TPS, 20+ APIs)
+            + Led the root cause investigation and authored the Correction of Errors (COE) document following a regional service outage; analyzed cascading service logic across stakeholder teams to publish a data-driven post-mortem ahead of a strict deadline, establishing 12 architecture and process action items that prevented recurring failures.
+        + Distributed Secure Tool (Java, Go, DynamoDB, 20+ APIs supporting all AWS regions with a volume of 800 requests per minute)
+            + Architected and implemented a user settings persistence system (UI + APIs) backed by DynamoDB, enabling cross-device and cross-region configuration portability for platform users.
     - company: Amazon Web Services(AWS)
       link: 'https://aws.amazon.com/'
       tags: Internship
@@ -171,22 +172,31 @@ skill:
   #   - name: Skill I
   #     level: 3
 
-  # groups:
-    # - name: Cloud & Platforms
-    #   item:
-    #     - AWS
-    # - name: 
-      # item:
-        # - Java
-        # - Python
-        # - Ruby (Ruby on Rails)
-        # - Javascript (React)
-        # - 
-    # - name: 
-    #   item:
-    #     - Skill H
-    #     - Skill I
-
+  groups:
+    - name: Languages
+      item:
+        - Java
+        - Python
+        - Ruby (Ruby on Rails)
+        - Javascript (React)
+    - name: Cloud AWS
+      item:
+        - S3
+        - Lambda
+        - DynamoDB
+        - SQS
+        - CloudWatch
+        - EC2   
+    - name: Practices
+        - DevOps      
+        - Infrastructure as Code
+        - CI/CD
+        - SQL
+        - NoSql
+        - REST
+    - name: Tools
+      item:
+        - Junit, Minitest, Rspect, Git, IntellJ, VS code
 education:
   show: true
   order: 5
