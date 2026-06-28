@@ -1,7 +1,7 @@
 basic:
   name: Yuanyuan Meng                      # name
-  # title: Software Development Engineer II         # job title
-  avatar:
+  title: Software Development Engineer          # job title
+  # avatar:
     show: false                       # show or hide avatar
     path: /assets/images/profile.png # avatar file path
 
@@ -10,6 +10,7 @@ contact:
   location: San Jose, CA # location
   email: yuanmeng08@gmail.com    # email address
   phone: (408)9302587 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  linkedin: www.linkedin.com/in/yuanyuan-meng
   # website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
 
   # gender:                  # gender or pronoun
@@ -58,12 +59,14 @@ contact:
   dribble:                 # username          | https://dribbble.com/username
   artstation:              # username          | https://www.artstation.com/username
 
-  other cv
-  linkedin:                 Yuanyuan Meng        | https://www.linkedin.com/in/yuanyuan-meng
-  # indeed:                  # resumeid          | https://www.linkedin.com/in/yuanyuan-meng
-  # xing:                    # username          | https://www.xing.com/profile/username
-  # fiverr:                  # username          | https://www.fiverr.com/username
-  # freelancer:              # username          | https://www.freelancer.com/u/username
+  # other cv
+  linkedin:                 yuanyuan-meng          | www.linkedin.com/in/yuanyuan-meng
+
+
+  indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
+  xing:                    # username          | https://www.xing.com/profile/username
+  fiverr:                  # username          | https://www.fiverr.com/username
+  freelancer:              # username          | https://www.freelancer.com/u/username
 
   # social media
   twitter:                 # username          | https://twitter.com/username
@@ -85,6 +88,7 @@ profile:
   description: |
     Software Development Engineer II with 3.5+ years of experience building full-stack and backend platform solutions, with a focus on scalable web services, API reliability, data persistence (SQL & NoSQL), and AWS cloud infrastructure. Proven track record of leading high-impact engineering initiatives across system design, security modernization, automation, and cross-team technical delivery.
 
+
 experience:
   show: true
   order: 2
@@ -97,45 +101,58 @@ experience:
       link: 'https://aws.amazon.com/'
       tags: Full-time
       date: 2022.11 - Present
-      role: Software Dev Engineer II
+      role: Software Development Engineer
       location: Cupertino, CA
       description: |
-      + Host Provisioning Service (Distributed system with 8K TPS, 100+ APIs, Web applications across 34 AWS regions, using RESTful APIs and MySQL)
+        # Your key responsibilities and achievements in the company.
+        + Host Provisioning Service (Distributed system with 8K TPS, 100+ APIs, Web applications across 34 AWS regions, using RESTful APIs and MySQL)
         + Redesigned the service error-handling mechanism across 100+ multi-team APIs to reduce the unhandled 500 error rate to 0%, unblocking a high-priority security review and eliminating persistent on-call pager friction.
         + Performed an end-to-end framework migration to resolve 714 high-priority compliance risks and unblock the global service deployment pipeline that required L8+ executive release sign-offs.
-        + Designed and implemented an alternative cross-region routing topology during an infrastructure freeze to unblock launch tracks for dependent internal platform teams.
-        + Designed and implemented API testing automation, reducing verification time for 5 regions and 15 environments from 1 week to 30 minutes.
-        + Authored a knowledge ecosystem consisting of 3 automation runbooks and 10 technical deep-dive wikis, establishing a standardized onboarding framework.
-      + Distributed Credential Management Service (Java, 7K TPS, 20+ APIs)
-        + Led the root cause investigation and authored the Correction of Errors (COE) document following a regional service outage; analyzed cascading service logic across stakeholder teams to publish a data-driven post-mortem ahead of a strict deadline, establishing 12 architecture and process action items that prevented recurring failures.
-      + Distributed Secure Tool (Java, Go, DynamoDB, 20+ APIs supporting all AWS regions with a volume of 800 requests per minute)
-        + Architected and implemented a user settings persistence system (UI + APIs) backed by DynamoDB, enabling cross-device and cross-region configuration portability for platform users.
+          + Designed and implemented an alternative cross-region routing topology during an infrastructure freeze to unblock launch tracks for dependent internal platform teams.
+          + Designed and implemented API testing automation, reducing verification time for 5 regions and 15 environments from 1 week to 30 minutes.
+          + Authored a knowledge ecosystem consisting of 3 automation runbooks and 10 technical deep-dive wikis, establishing a standardized onboarding framework.
+        + Distributed Credential Management Service (Java, 7K TPS, 20+ APIs)
+          + Led the root cause investigation and authored the Correction of Errors (COE) document following a regional service outage; analyzed cascading service logic across stakeholder teams to publish a data-driven post-mortem ahead of a strict deadline, establishing 12 architecture and process action items that prevented recurring failures.
+        + Distributed Secure Tool (Java, Go, DynamoDB, 20+ APIs supporting all AWS regions with a volume of 800 requests per minute)
+          + Architected and implemented a user settings persistence system (UI + APIs) backed by DynamoDB, enabling cross-device and cross-region configuration portability for platform users.
     - company: Amazon Web Services(AWS)
       link: 'https://aws.amazon.com/'
       tags: Internship
       date: 2022.05 - 2022.07
-      role: Software Dev Engineer Intern
+      role: Software Development Engineer Intern
       location: Cupertino, CA
       description: |
-           + Developed a full-stack web service with Ruby on Rails, React, and Bootstrap, offering customizable JSON data through three APIs.
+        Developed a full-stack web service with Ruby on Rails, React, and Bootstrap, offering customizable JSON data through three APIs.
+
 project:
   show: false
   order: 3
   title: Projects
-  # description: |
-  #   The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
+  description: |
+    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
 
-  #   In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
+    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
 
-  #   The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
+    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
 
   items:
-    - name: Movie Recommendation System
-      # link: '#'
+    - name: Personal project
+      link: '#'
       tags:
-      date: 2020 - 2022
+      date: 2015 - 2017
       description: |
-        Designed and developed collaborative filtering algorithms to predict unknown ratings by learning user preferences from training data.
+        Personal project description...
+        + First
+        + Second
+
+    - name: OSS project
+      link:
+      tags: committer
+      date:
+      description: |
+        OSS project description...
+        + First
+        + Second
 
 skill:
   show: true
@@ -145,16 +162,8 @@ skill:
     Frameworks & Web Services: Ruby on Rails, Spring Boot, RESTful APIs, Microservices Architecture 
     Cloud & Infrastructure: AWS (DynamoDB, EC2, IAM, Core Networking), Kubernetes, Docker, Terraform / Infrastructure-as-Code (IaC)
     Data Structures & Paradigms: Concurrency/Multithreading, Distributed Systems, Geospatial Indexing (S2/H3/Quadtrees), System Design
-  # #   The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
-
-  # #   The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
-
-  # #   When crafting your skills section, it's important to tailor it to the specific job you are applying for, and only include skills that are relevant to the position. This can help catch the attention of the hiring manager and demonstrate that you have the qualifications necessary to succeed in the role.
-
-  # #   There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
-
   # items:
-  #   - name: Java
+  #   - name: Skill A
   #     level: 5
   #   - name: Skill B
   #     level: 4
@@ -173,31 +182,22 @@ skill:
   #   - name: Skill I
   #     level: 3
 
-  groups:
-    - name: Languages
-      item:
-        - Java
-        - Python
-        - Ruby (Ruby on Rails)
-        - Javascript (React)
-    - name: Cloud AWS
-      item:
-        - S3
-        - Lambda
-        - DynamoDB
-        - SQS
-        - CloudWatch
-        - EC2   
-    - name: Practices
-        - DevOps      
-        - Infrastructure as Code
-        - CI/CD
-        - SQL
-        - NoSql
-        - REST
-    - name: Tools
-      item:
-        - Junit, Minitest, Rspect, Git, IntellJ, VS code
+  # groups:
+  #   - name: Group A Skills
+  #     item:
+  #       - Skill A
+  #       - Skill B
+  #       - Skill C
+  #       - Skill D
+  #   - name: Group B Skills
+  #     item:
+  #       - Skill E
+  #       - Skill F
+  #       - Skill G
+  #   - name: Group C Skills
+  #     item:
+  #       - Skill H
+  #       - Skill I
 
 education:
   show: true
@@ -343,10 +343,10 @@ language:
   show: false
   order: 11
   title: Languages
-  # description: |
-  #   The languages section in a resume typically includes information about your proficiency in different languages. This section can be particularly important if you are applying for a job that requires fluency or proficiency in a specific language.
+  description: |
+    The languages section in a resume typically includes information about your proficiency in different languages. This section can be particularly important if you are applying for a job that requires fluency or proficiency in a specific language.
 
-  #   It's important to be honest about your language proficiency in your resume. If you overstate your abilities, it could lead to problems during the interview process or on the job. If you have taken language courses or earned language certifications, you can also include this information in the languages section of your resume.
+    It's important to be honest about your language proficiency in your resume. If you overstate your abilities, it could lead to problems during the interview process or on the job. If you have taken language courses or earned language certifications, you can also include this information in the languages section of your resume.
 
   items:
     - idiom: Chinese
