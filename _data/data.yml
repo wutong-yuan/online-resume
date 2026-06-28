@@ -94,7 +94,7 @@ experience:
   #   The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
 
   items:
-    - company: __Amazon Web Services__
+    - company: Amazon Web Services
       link: 'https://aws.amazon.com/'
       tags: Full-time
       date: 2022.11 - Present
@@ -111,7 +111,7 @@ experience:
             + __Led__ the root cause investigation and authored the Correction of Errors (COE) document following a regional service outage; analyzed cascading service logic across stakeholder teams to publish a data-driven post-mortem ahead of a strict deadline, establishing 12 architecture and process action items that prevented recurring failures.
         + __Distributed Secure Tool (Java, Go, DynamoDB, 20+ APIs supporting all AWS regions with a volume of 800 requests per minute)__
             + __Architected__ and __implemented__ a user settings persistence system (UI + APIs) backed by DynamoDB, enabling cross-device and cross-region configuration portability for platform users.
-    - company: __Amazon Web Services__
+    - company: Amazon Web Services
       link: 'https://aws.amazon.com/'
       tags: Internship
       date: 2022.05 - 2022.07
@@ -143,7 +143,6 @@ skill:
   order: 4
   title: Skills
   description: |
-    Java, Python, Ruby on Rails, React.js, AWS Services(CloudWatch, S3, SQS, Lambda, CDK)
   # #   The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
 
   # #   The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
