@@ -107,6 +107,8 @@ experience:
             + __Authored__ a knowledge ecosystem consisting of 3 service runbooks and 10 technical deep-dive wikis, establishing a standardized onboarding framework.
         + __Distributed Credential Management Service (7K TPS, 20+ APIs, DynamoDB, Java, using RESTful APIs and DynamoDB)__
             + __Led__ the root cause investigation and authored the Correction of Errors (COE) document following a regional service outage; analyzed cascading service logic across stakeholder teams to publish a data-driven post-mortem ahead of a strict deadline, establishing 12 architecture and process action items that prevented recurring failures.
+            + __Owned and delivered__ security vulnerabilities mitigation by implementing hosts login monitoring and automated alarms.
+            + __Designed and implemented integration tests across all pipeline stages for customer-facing APIs.
         + __Distributed Secure Tool (1k RPM, 20+ APIs, Web applications across 32 AWS regions, Java, using RESTful APIs and DynamoDB)__
             + __Architected__ and __implemented__ a user settings persistence system (UI + APIs) backed by DynamoDB, enabling cross-device and cross-region configuration portability for platform users.
     - company: Amazon Web Services
