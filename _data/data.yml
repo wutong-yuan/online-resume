@@ -6,11 +6,9 @@ basic:
     path: /assets/images/profile.png # avatar file path
 
 contact:
-  # meta
   location: San Jose, CA # location
   email: yuanmeng08@gmail.com    # email address
   phone: (408)9302587 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  Linkedin: https://www.linkedin.com/in/yuanyuan-meng/
   # website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
 
   # gender:                  # gender or pronoun
@@ -60,7 +58,7 @@ contact:
   artstation:              # username          | https://www.artstation.com/username
 
   # other cv
-  linkedin:                # username          | https://linkedin.com/in/username
+  linkedin:                yuanyuanmeng        | https://www.linkedin.com/in/yuanyuan-meng/
   indeed:                  # resumeid          | https://my.indeed.com/p/resumeid
   xing:                    # username          | https://www.xing.com/profile/username
   fiverr:                  # username          | https://www.fiverr.com/username
