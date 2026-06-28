@@ -99,15 +99,15 @@ experience:
       role: Software Dev Engineer
       location: Cupertino, CA
       description: |
-        + __Distributed Host Provisioning Service system with 8K TPS, 100+ APIs, Web applications across 34 AWS regions, using RESTful APIs and MySQL)__
+        + __Distributed Host Provisioning Service system (8K TPS, 100+ APIs, Web applications across 34 AWS regions, Ruby on Rails, using RESTful APIs and MySQL)__
             + __Redesigned__ the service error-handling mechanism across 100+ multi-team APIs to reduce the unhandled 500 error rate to __0%__, unblocking a high-priority security review and eliminating persistent on-call pager friction.
             + __Performed__ an __end-to-end__ framework migration to resolve 714 high-priority compliance risks and unblock the global service deployment pipeline that required L8+ executive release sign-offs.
             + __Designed__ and __implemented__ an alternative cross-region routing topology during an infrastructure freeze to unblock launch tracks for dependent internal platform teams.
             + __Designed__ and __implemented__ API testing automation, reducing verification time for 5 regions and 15 environments from __1 week to 30 minutes__.
             + __Authored__ a knowledge ecosystem consisting of 3 service runbooks and 10 technical deep-dive wikis, establishing a standardized onboarding framework.
-        + __Distributed Credential Management Service (Java, 7K TPS, 20+ APIs)__
+        + __Distributed Credential Management Service (7K TPS, 20+ APIs, DynamoDB, Java, using RESTful APIs and DynamoDB)__
             + __Led__ the root cause investigation and authored the Correction of Errors (COE) document following a regional service outage; analyzed cascading service logic across stakeholder teams to publish a data-driven post-mortem ahead of a strict deadline, establishing 12 architecture and process action items that prevented recurring failures.
-        + __Distributed Secure Tool (Java, Go, DynamoDB, 20+ APIs supporting all AWS regions with a volume of 800 requests per minute)__
+        + __Distributed Secure Tool (1k RPM, 20+ APIs, Web applications across 32 AWS regions, Java, using RESTful APIs and DynamoDB)__
             + __Architected__ and __implemented__ a user settings persistence system (UI + APIs) backed by DynamoDB, enabling cross-device and cross-region configuration portability for platform users.
     - company: Amazon Web Services
       link: 'https://aws.amazon.com/'
