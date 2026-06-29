@@ -97,22 +97,22 @@ experience:
       role: Software Development Engineer
       location: Cupertino, CA
       description: |
-        + __Host Provisioning Service__ *(Core infrastructure platform powering __automated host lifecycle management__ across __34 AWS regions__; distributed system processing __8K TPS__ across __100+ REST APIs__.)*
-            + __Led__ the redesign of the service error-handling framework across __100+ APIs__ owned by __multiple engineering teams__, reducing the __unhandled 500 error rate to 0%__, unblocking a __high-priority security review__, and eliminating recurring __on-call pager__ incidents.
-            + __Led__ a __cross-team__, __end-to-end__ framework migration, partnering with platform stakeholders to resolve __714 high-priority compliance findings__ and unblock the __global deployment pipeline__ that previously required __L8+ executive__ release approvals.
-            + __Designed__ and __implemented__ a __cross-region routing topology__ during an infrastructure freeze, unblocking launch milestones for multiple __internal platform teams__.
-            + __Designed__ and __implemented__ API testing automation using __Python__, standardizing API validation workflows across __50 APIs__, __12 Apollo environments__, and __5 AWS regions__ (~__2,000 test scenarios__); reduced regression testing time from manual execution to __60 minutes__ and established a team-approved testing guidance framework.
-            + __Established__ a standardized operational knowledge base by authoring __3 service runbooks__ and __10 technical deep-dive wikis__, accelerating engineer onboarding and improving operational readiness.
+        + __Host Provisioning Service__ *(Core infrastructure platform powering __automated host lifecycle management__ across __34 AWS regions__; Java-based distributed system processing __8K TPS__ across __100+ REST APIs__.)*[cite: 1]
+            + __Led__ the architecture redesign of the __Java-based__ service error-handling framework across __100+ APIs__ owned by __multiple engineering teams__, reducing the __unhandled 500 error rate to 0%__, unblocking a __high-priority security review__, and eliminating recurring __on-call pager__ incidents.[cite: 1]
+            + __Managed__ a __cross-team__, __end-to-end__ framework migration, partnering with platform stakeholders to resolve __714 high-priority compliance findings__ and unblock the __global microservices deployment pipeline__ that previously required __L8+ executive__ release approvals.[cite: 1]
+            + __Designed__ and __implemented__ a __cross-region routing topology__ during an infrastructure freeze, ensuring __high availability__ and unblocking launch milestones for multiple __internal platform teams__.[cite: 1]
+            + __Automated__ distributed API testing using __Python__, standardizing API validation workflows across __50 APIs__, __12 isolated environments__, and __5 AWS regions__ (~__2,000 test scenarios__); reduced regression testing time from manual execution to __60 minutes__ and established a team-approved validation framework.[cite: 1]
+            + __Established__ a standardized operational knowledge base by authoring __3 service runbooks__ and __10 technical deep-dive wikis__, accelerating engineer onboarding and improving operational readiness.[cite: 1]
 
-        + __Credential Management Service__ *(Security platform managing __operational credentials__ for __BMC__ and infrastructure systems; distributed system processing __7K TPS__ across __20+ REST APIs__.)*
-            + __Led__ a __cross-team__ root cause investigation and authored the __Correction of Errors (COE)__ following a __regional service outage__; analyzed cascading service interactions across dependent services and drove __12 architecture and process improvements__ to prevent recurring failures.
-            + __Owned__ a __cross-team__ security vulnerability remediation initiative by implementing __host login monitoring__ and __automated security alarms__, strengthening operational security across dependent infrastructure services.
-            + __Designed__ and __implemented__ __integration testing__ across all deployment pipeline stages for __10+ customer-facing APIs__, improving release quality and regression detection.
+        + __Credential Management Service__ *(Java-based distributed security service managing __operational credentials__ for __BMC__ and infrastructure systems; processing __7K TPS__ across __20+ REST APIs__.)*[cite: 1]
+            + __Led__ a __cross-team__ root cause investigation and authored the __Correction of Errors (COE)__ document following a __regional service outage__; analyzed cascading service interactions and executed __12 architecture and process improvements__ to prevent recurring failures.[cite: 1]
+            + __Hardened__ service infrastructure security by implementing __host login monitoring__ and __automated real-time security alarms__, strengthening operational isolation across dependent infrastructure services.[cite: 1]
+            + __Engineered__ end-to-end __integration testing__ across all deployment pipeline stages for __10+ customer-facing APIs__, significantly improving release quality and regression detection.[cite: 1]
 
-        + __Secure Host Access Platform__ *(Internal engineering platform enabling __secure host access__ for __data center engineers__ across __32 AWS regions__; serving __20+ REST APIs__ and processing __1K RPM__.)*
-            + __Architected__ and __implemented__ a __user settings persistence system__ backed by DynamoDB, enabling __cross-device__ and __cross-region__ configuration portability for platform users.
+        + __Secure Host Access Platform__ *(Java-based internal engineering platform enabling __secure host access__ for __data center engineers__ across __32 AWS regions__; serving __20+ REST APIs__ and processing __1K RPM__.)*[cite: 1]
+            + __Architected__ and __implemented__ a __distributed user settings persistence system__ backed by DynamoDB, enabling __cross-device__ and __cross-region__ configuration portability and low-latency state synchronization.[cite: 1]
 
-        + __Served__ as an on-call engineer for __Tier-1 AWS services__, leading __major incident investigations__, root cause analysis, and operational improvements to enhance service reliability.
+        + __Served__ as a Tier-1 on-call engineer, leading __major distributed incident investigations__, real-time mitigation, and systemic operational improvements to maximize platform reliability.[cite: 1]
 
     - company: Amazon Web Services
       link: 'https://aws.amazon.com/'
@@ -121,7 +121,7 @@ experience:
       role: Software Development Engineer Intern
       location: Cupertino, CA
       description: |
-        + __Designed__ and __developed__ a full-stack web application using __Ruby on Rails__, __React__, and __Bootstrap__, exposing __three REST APIs__ that delivered customizable JSON data for internal users.
+        + __Designed__ and __developed__ a full-stack web application using __Ruby on Rails__, __React__, and __Bootstrap__, exposing __three REST APIs__ that delivered customizable JSON data payloads for internal users.[cite: 1]
 project:
   show: false
   order: 3
