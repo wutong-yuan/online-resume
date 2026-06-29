@@ -29,7 +29,7 @@ a {
 }
 
 p {
-  line-height: 1.0;
+  line-height: 1.125;
   margin-top: 0;
   margin-bottom: 0.1rem;
 }
@@ -237,6 +237,7 @@ small {
       .items {
         display: flex;
         flex-wrap: wrap;
+        font-size: 12px;
 
         .item {
           display: inline-flex;
@@ -276,14 +277,16 @@ small {
 
           .group-name {
             font-weight: $base-font-weight * 1.50;
-            flex-basis: 20%;
+            flex-basis: 30%;
+            white-space: nowrap;
           }
 
           .group-item {
             display: flex;
             flex-wrap: wrap;
-            justify-content: end;
-            flex-basis: 80%;
+            justify-content: flex-end;
+            flex-basis: 72%;
+            font-size: 12px;
 
             span:not(:last-child)::after {
               content: "/";
