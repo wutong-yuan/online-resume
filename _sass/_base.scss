@@ -64,7 +64,7 @@ small {
 
   section {
     &:not(:last-child) {
-      margin-bottom: 10px;
+      margin-bottom: 7px;
     }
 
     .section-title {
@@ -96,7 +96,7 @@ small {
 
       .items {
         .item {
-          margin-bottom: 7px;
+          margin-bottom: 5px;
 
           .row {
             display: flex;
@@ -196,6 +196,8 @@ small {
       .contact {
         display: flex;
         flex-wrap: wrap;
+        font-size: 12px;
+        line-height: 1.2;
 
         .contact-item {
           display: inline-flex;
@@ -204,7 +206,7 @@ small {
           &:not(:last-child)::after {
             content: $contact-delimiter;
             color: $text-third-color;
-            margin: 0 0.5em;
+            margin: 0 0.35em;
           }
 
           i::after {
