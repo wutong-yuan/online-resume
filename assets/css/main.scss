@@ -5,20 +5,20 @@
 
 // Define defaults for each variable.
 $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$base-font-size:   12px !default;
-$base-font-weight: 400 !default;
+$base-font-size:   13px !default;
+$base-font-weight: 350 !default;
 
 $small-font-size:  $base-font-size * 0.875 !default; // 14px
 $middle-font-size: $base-font-size * 1.125 !default; // 18px
 $large-font-size:  $base-font-size * 1.25  !default; // 20px
 $huge-font-size:   $base-font-size * 2     !default; // 32px
 
-$base-line-height: 1.1 !default;
+$base-line-height: 1.25 !default;
 
 $spacing-unit:     12px !default;
 
 // Width of the content area
-$content-width:    1000px !default;
+$content-width:    900px !default;
 
 // Default color settings
 $text-color:        #333333;

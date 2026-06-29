@@ -29,9 +29,9 @@ a {
 }
 
 p {
-  line-height: 1.4;
+  line-height: 1.25;
   margin-top: 0;
-  margin-bottom: 0.15rem;
+  margin-bottom: 0.2rem;
 }
 
 ol, ul {
@@ -64,7 +64,7 @@ small {
 
   section {
     &:not(:last-child) {
-      margin-bottom: 8px;
+      margin-bottom: 10px;
     }
 
     .section-title {
@@ -96,7 +96,7 @@ small {
 
       .items {
         .item {
-          margin-bottom: 5px;
+          margin-bottom: 7px;
 
           .row {
             display: flex;
@@ -277,7 +277,8 @@ small {
 
           .group-name {
             font-weight: $base-font-weight * 1.50;
-            flex-basis: 30%;
+            flex-basis: 24%;
+            font-size: 12px;
             white-space: nowrap;
           }
 
@@ -285,7 +286,7 @@ small {
             display: flex;
             flex-wrap: wrap;
             justify-content: flex-end;
-            flex-basis: 72%;
+            flex-basis: 76%;
             font-size: 12px;
 
             span:not(:last-child)::after {
