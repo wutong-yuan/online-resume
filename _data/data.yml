@@ -109,7 +109,7 @@ experience:
             + __Hardened__ infrastructure security by implementing __host login monitoring__ and __automated real-time alarms__, strengthening operational isolation.
             + __Engineered__ end-to-end integration testing across deployment pipeline stages for __10+ customer-facing APIs__, improving regression detection.
 
-        + __Secure Host Access Platform & Operations__ *(Java-based platform serving __32 AWS regions__; processing __1K RPM__ across __20+ REST APIs__.)*
+        + __Secure Host Access Platform__ *(Java-based platform serving __32 AWS regions__; processing __1K RPM__ across __20+ REST APIs__.)*
             + __Architected__ a user settings persistence system backed by __DynamoDB__, enabling cross-device and cross-region low-latency configuration synchronization.
         + __Served__ as Tier-1 service on-call engineer, leading major incident investigations and mitigation efforts to improve platform reliability.
 
