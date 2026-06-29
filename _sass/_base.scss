@@ -64,7 +64,7 @@ small {
 
   section {
     &:not(:last-child) {
-      margin-bottom: 7px;
+      margin-bottom: 4px;
     }
 
     .section-title {
@@ -73,7 +73,7 @@ small {
 
       font-size: 16px;
       color: $theme-color;
-      margin-bottom: 4px;
+      margin-bottom: 3px;
       padding: 2px 0;
       border-bottom-color: rgba($theme-color, 0.25);
       border-bottom-width: 1px;
