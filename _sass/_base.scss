@@ -29,9 +29,9 @@ a {
 }
 
 p {
-  line-height: 1.2;
+  line-height: 1.3;
   margin-top: 0;
-  margin-bottom: 0.1rem;
+  margin-bottom: 0.15rem;
 }
 
 ol, ul {
@@ -64,7 +64,7 @@ small {
 
   section {
     &:not(:last-child) {
-      margin-bottom: 6px;
+      margin-bottom: 8px;
     }
 
     .section-title {
@@ -96,7 +96,7 @@ small {
 
       .items {
         .item {
-          margin-bottom: 3px;
+          margin-bottom: 5px;
 
           .row {
             display: flex;
