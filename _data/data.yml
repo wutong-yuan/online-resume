@@ -78,7 +78,7 @@ contact:
   strava:                  # useid             | https://www.strava.com/athletes/userid
 
 profile:
-  show: true
+  show: false
   order: 1
   title: Profile
   description: |
@@ -99,19 +99,17 @@ experience:
       description: |
         + __Host Provisioning Service__ *(Ruby on Rails-based distributed platform processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__.)*
             + __Redesigned__ the service error-handling framework across __100+ multi-team APIs__, reducing unhandled 500 errors to __0%__ and eliminating recurring on-call pager incidents.
-            + __Led__ an end-to-end framework migration resolving __714 high-priority compliance findings__ and unblocking a global microservices deployment pipeline.
-            + __Designed__ a cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and unblocking critical launch milestones for internal platform teams.
+            + __Led__ the end-to-end __Ruby on Rails framework migration__, resolving __714 high-priority security/compliance findings__ and unblocking deployment of a __global microservices platform__.            + __Designed__ a cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and unblocking critical launch milestones for internal platform teams.
             + __Automated__ distributed API testing using __Python__ across __50 APIs__ and __12 environments__, reducing regression validation time from __~1 week__ to __60 minutes__.
             + __Authored__ __3 service runbooks__ and __10 deep-dive wikis__, improving operational readiness and accelerating engineer onboarding.
 
         + __Credential Management Service__ *(Java-based distributed security service managing operational credentials, processing __7K TPS__ across __20+ REST APIs__.)*
-            + __Led__ a cross-team root cause investigation and authored the __COE document__ following a regional outage, driving __12 architecture and process improvements__ to prevent recurring failures.
-            + __Hardened__ infrastructure security by implementing __host login monitoring__ and __automated real-time alarms__, strengthening operational isolation.
+            + __Led__ a cross-team root cause investigation following a __regional outage__ impacting __all customers in the affected region__, collaborating with __three engineering teams__ and __5+ engineers__. Authored the __incident analysis__ document and drove __12 architecture and operational improvements__ to prevent recurring failures.            + __Hardened__ infrastructure security by implementing __host login monitoring__ and __automated real-time alarms__, strengthening operational isolation.
             + __Engineered__ end-to-end integration testing across deployment pipeline stages for __10+ customer-facing APIs__, improving regression detection.
 
         + __Secure Host Access Platform__ *(Java-based platform serving __32 AWS regions__; processing __1K RPM__ across __20+ REST APIs__.)*
             + __Architected__ a user settings persistence system backed by __DynamoDB__, enabling cross-device and cross-region low-latency configuration synchronization.
-        + __Served__ as Tier-1 service on-call engineer, leading major incident investigations and mitigation efforts to improve platform reliability.
+        + __Served__ as the __Tier-1 on-call engineer__ for __Host Provisioning Service__, __Credential Management Service__, and __Secure Host Access Platform__, leading major incident investigations and mitigation efforts to improve platform reliability.
 
     - company: Amazon Web Services
       link: 'https://aws.amazon.com/'
@@ -182,13 +180,16 @@ skill:
         - Ruby
         - JavaScript
 
-    - name: Backend & Databases
+    - name: Backend
       item:
+        - Ruby on Rails
+        - Java
         - REST APIs
-        - SQL(MySQL)
-        - NoSQL(DynamoDB)
+        - Distributed Systems
+        - DynamoDB
+        - MySQL
 
-    - name: Cloud & Infrastructure
+    - name: Cloud
       item:
         - AWS
         - EC2
@@ -200,8 +201,10 @@ skill:
 
     - name: Engineering
       item:
-        - Distributed Systems
-        - CI/CD, DevOps
+        - System Design
+        - High Availability
+        - Reliability Engineering
+        - CI/CD
         - Infrastructure as Code
         - Test Automation
 
