@@ -97,21 +97,20 @@ experience:
       role: Software Development Engineer
       location: Cupertino, CA
       description: |
-        + __Host Provisioning Service__ *(Java-based distributed system processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__.)*
-            + __Redesigned__ the service error-handling framework across __100+ multi-team APIs__, reducing unhandled 500 errors to __0%__ and eliminating recurring on-call pager incidents.
-            + __Managed__ an end-to-end framework migration resolving __714 high-priority compliance findings__, successfully unblocking a global microservices deployment pipeline.
+        + __Host Provisioning Service__ *(Ruby on Rails-based distributed platform processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__.)*            + __Redesigned__ the service error-handling framework across __100+ multi-team APIs__, reducing unhandled 500 errors to __0%__ and eliminating recurring on-call pager incidents.
+            + __Led__ an end-to-end framework migration resolving __714 high-priority compliance findings__ and unblocking a global microservices deployment pipeline.
             + __Designed__ a cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and unblocking critical launch milestones for internal platform teams.
-            + __Automated__ distributed testing using __Python__ across __50 APIs__ and __12 environments__, reducing regression validation time from manual execution to __60 minutes__.
-            + __Authored__ __3 service runbooks__ and __10 deep-dive wikis__, streamlining onboarding and improving operational readiness.
+            + __Automated__ distributed API testing using __Python__ across __50 APIs__ and __12 environments__, reducing regression validation time from __~1 week__ to __60 minutes__.
+            + __Authored__ __3 service runbooks__ and __10 deep-dive wikis__, improving operational readiness and accelerating engineer onboarding.
 
-        + __Credential Management Service__ *(Java distributed security service managing operational credentials, processing __7K TPS__ across __20+ APIs__.)*
-            + __Led__ a cross-team root cause investigation and authored the __COE document__ for a regional outage, executing __12 architecture fixes__ to prevent recurring failures.
-            + __Hardened__ infrastructure security by implementing host login monitoring and automated real-time alarms to strengthen operational isolation.
-            + __Engineered__ end-to-end integration testing across pipeline stages for __10+ customer-facing APIs__ to improve regression detection.
+        + __Credential Management Service__ *(Java-based distributed security service managing operational credentials, processing __7K TPS__ across __20+ REST APIs__.)*
+            + __Led__ a cross-team root cause investigation and authored the __COE document__ following a regional outage, driving __12 architecture and process improvements__ to prevent recurring failures.
+            + __Hardened__ infrastructure security by implementing __host login monitoring__ and __automated real-time alarms__, strengthening operational isolation.
+            + __Engineered__ end-to-end integration testing across deployment pipeline stages for __10+ customer-facing APIs__, improving regression detection.
 
-        + __Secure Host Access Platform & Operations__ *(Java platform across __32 regions__; processing __1K RPM__ across __20+ REST APIs__.)*
-            + __Architected__ a user settings persistence system backed by __DynamoDB__, enabling cross-device and cross-region low-latency state synchronization.
-            + __Served__ as Tier-1 on-call engineer, leading major incident investigations and mitigation to maximize platform reliability.
+        + __Secure Host Access Platform & Operations__ *(Java-based platform serving __32 AWS regions__; processing __1K RPM__ across __20+ REST APIs__.)*
+            + __Architected__ a user settings persistence system backed by __DynamoDB__, enabling cross-device and cross-region low-latency configuration synchronization.
+            + __Served__ as Tier-1 on-call engineer, leading major incident investigations and mitigation efforts to improve platform reliability.
 
     - company: Amazon Web Services
       link: 'https://aws.amazon.com/'
@@ -121,6 +120,7 @@ experience:
       location: Cupertino, CA
       description: |
         + __Developed__ a full-stack web application using __Ruby on Rails__ and __React__, exposing __three REST APIs__ that delivered customizable JSON payloads.
+
 project:
   show: false
   order: 3
