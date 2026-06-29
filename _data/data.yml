@@ -97,7 +97,8 @@ experience:
       role: Software Development Engineer
       location: Cupertino, CA
       description: |
-        + __Host Provisioning Service__ *(Ruby on Rails-based distributed platform processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__.)*            + __Redesigned__ the service error-handling framework across __100+ multi-team APIs__, reducing unhandled 500 errors to __0%__ and eliminating recurring on-call pager incidents.
+        + __Host Provisioning Service__ *(Ruby on Rails-based distributed platform processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__.)*
+            + __Redesigned__ the service error-handling framework across __100+ multi-team APIs__, reducing unhandled 500 errors to __0%__ and eliminating recurring on-call pager incidents.
             + __Led__ an end-to-end framework migration resolving __714 high-priority compliance findings__ and unblocking a global microservices deployment pipeline.
             + __Designed__ a cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and unblocking critical launch milestones for internal platform teams.
             + __Automated__ distributed API testing using __Python__ across __50 APIs__ and __12 environments__, reducing regression validation time from __~1 week__ to __60 minutes__.
