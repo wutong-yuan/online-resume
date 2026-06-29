@@ -78,48 +78,49 @@ contact:
   strava:                  # useid             | https://www.strava.com/athletes/userid
 
 profile:
-  show: false
+  show: true
   order: 1
   title: Profile
   description: |
-    Software Development Engineer II with 3.5+ years of experience building full-stack and backend platform solutions, with a focus on scalable web services, API reliability, data persistence (SQL & NoSQL), and AWS cloud infrastructure. Proven track record of leading high-impact engineering initiatives across system design, security modernization, automation, and cross-team technical delivery.
+    Software Development Engineer with 4 years of experience building __large-scale infrastructure platforms__ and __distributed backend services__ at AWS.
 
 experience:
   show: true
   order: 2
   title: Experiences
-  # description: |
-  #   The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
 
   items:
     - company: Amazon Web Services
       link: 'https://aws.amazon.com/'
       tags: Full-time
       date: 2022.11 - Present
-      role: Software Dev Engineer
+      role: Software Development Engineer
       location: Cupertino, CA
       description: |
-        + __Distributed Host Provisioning Service system (8K TPS, 100+ APIs, Web applications across 34 AWS regions, Ruby on Rails, using RESTful APIs and MySQL)__
-            + __Redesigned__ the service error-handling mechanism across 100+ multi-team APIs to reduce the unhandled 500 error rate to __0%__, unblocking a high-priority security review and eliminating persistent on-call pager friction.
-            + __Performed__ an __end-to-end__ framework migration to resolve 714 high-priority compliance risks and unblock the global service deployment pipeline that required L8+ executive release sign-offs.
-            + __Designed__ and __implemented__ an alternative cross-region routing topology during an infrastructure freeze to unblock launch tracks for dependent internal platform teams.
-            + __Designed__ and __implemented__ API testing automation, reducing verification time for 5 regions and 15 environments from __1 week to 30 minutes__.
-            + __Authored__ a knowledge ecosystem consisting of 3 service runbooks and 10 technical deep-dive wikis, establishing a standardized onboarding framework.
-        + __Distributed Credential Management Service (7K TPS, 20+ APIs, DynamoDB, Java, using RESTful APIs and DynamoDB)__
-            + __Led__ the root cause investigation and authored the Correction of Errors (COE) document following a regional service outage; analyzed cascading service logic across stakeholder teams to publish a data-driven post-mortem ahead of a strict deadline, establishing 12 architecture and process action items that prevented recurring failures.
-            + __Owned and delivered__ security vulnerabilities mitigation by implementing hosts login monitoring and automated alarms.
-            + __Designed and implemented integration tests__ across all pipeline stages for customer-facing APIs.
-        + __Distributed Secure Tool (1k RPM, 20+ APIs, Web applications across 32 AWS regions, Java, using RESTful APIs and DynamoDB)__
-            + __Architected__ and __implemented__ a user settings persistence system (UI + APIs) backed by DynamoDB, enabling cross-device and cross-region configuration portability for platform users.
-        + Performed routine operational supports to Tier 1 AWS services and deep dive investigations for major incidents.
+        + __Host Provisioning Service__ *(Core infrastructure platform powering __automated host lifecycle management__ across __34 AWS regions__; distributed system processing __8K TPS__ across __100+ REST APIs__.)*
+            + __Led__ the redesign of the service error-handling framework across __100+ APIs__ owned by __multiple engineering teams__, reducing the __unhandled 500 error rate to 0%__, unblocking a __high-priority security review__, and eliminating recurring __on-call pager__ incidents.
+            + __Led__ a __cross-team__, __end-to-end__ framework migration, partnering with platform stakeholders to resolve __714 high-priority compliance findings__ and unblock the __global deployment pipeline__ that previously required __L8+ executive__ release approvals.
+            + __Designed__ and __implemented__ a __cross-region routing topology__ during an infrastructure freeze, unblocking launch milestones for multiple __internal platform teams__.            + __Designed__ and __implemented__ API testing automation, reducing verification time across __5 AWS regions__ and __15 environments__ from __1 week to 30 minutes__.
+            + __Established__ a standardized operational knowledge base by authoring __3 service runbooks__ and __10 technical deep-dive wikis__, accelerating engineer onboarding and improving operational readiness.
+
+        + __Credential Management Service__ *(Security platform managing __operational credentials__ for __BMC__ and infrastructure systems; distributed system processing __7K TPS__ across __20+ REST APIs__.)*
+            + __Led__ a __cross-team__ root cause investigation and authored the __Correction of Errors (COE)__ following a __regional service outage__; analyzed cascading service interactions across dependent services and drove __12 architecture and process improvements__ to prevent recurring failures.
+            + __Owned__ a __cross-team__ security vulnerability remediation initiative by implementing __host login monitoring__ and __automated security alarms__, strengthening operational security across dependent infrastructure services.
+            + __Designed__ and __implemented__ __integration testing__ across all deployment pipeline stages for __10+ customer-facing APIs__, improving release quality and regression detection.
+
+        + __Secure Host Access Platform__ *(Internal engineering platform enabling __secure host access__ for __data center engineers__ across __32 AWS regions__; serving __20+ REST APIs__ and processing __1K RPM__.)*
+            + __Architected__ and __implemented__ a __user settings persistence system__ backed by DynamoDB, enabling __cross-device__ and __cross-region__ configuration portability for platform users.
+
+        + __Served__ as an on-call engineer for __Tier-1 AWS services__, leading __major incident investigations__, root cause analysis, and operational improvements to enhance service reliability.
+
     - company: Amazon Web Services
       link: 'https://aws.amazon.com/'
       tags: Internship
       date: 2022.05 - 2022.07
-      role: Software Dev Engineer Intern
+      role: Software Development Engineer Intern
       location: Cupertino, CA
       description: |
-           + __Designed__ and __implemented__ a full-stack web service with Ruby on Rails, React, and Bootstrap, offering customizable JSON data through three APIs.
+        + __Designed__ and __developed__ a full-stack web application using __Ruby on Rails__, __React__, and __Bootstrap__, exposing __three REST APIs__ that delivered customizable JSON data for internal users.
 project:
   show: false
   order: 3
@@ -143,7 +144,7 @@ skill:
   show: true
   order: 4
   title: Skills
-  description: |
+  # description: |
   # #   The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
 
   # #   The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
@@ -177,32 +178,43 @@ skill:
       item:
         - Java
         - Python
-        - Ruby (Ruby on Rails)
-        - Javascript (React)
-    - name: Cloud AWS
+        - Ruby
+        - JavaScript
+
+    - name: Backend & Databases
       item:
-        - S3
+        - REST APIs
+        - SQL(MySQL)
+        - NoSQL(DynamoDB)
+
+    - name: Cloud & Infrastructure
+      item:
+        - AWS
+        - EC2
         - Lambda
-        - DynamoDB
         - SQS
+        - S3
         - CloudWatch
-        - EC2   
-    - name: Practices
-      item:    
-        - DevOps      
-        - Infrastructure as Code
+        - CDK
+
+    - name: Engineering
+      item:
+        - Distributed Systems
+        - System Design
         - CI/CD
-        - SQL
-        - NoSql
-        - REST
+        - DevOps
+        - Infrastructure as Code
+        - Test Automation
+
     - name: Tools
       item:
-        - Junit
-        - Minitest
-        - Rspect
         - Git
-        - IntellJ
-        - VS code
+        - IntelliJ IDEA
+        - VS Code
+        - JUnit
+        - RSpec
+        - Minitest
+
 education:
   show: true
   order: 5
