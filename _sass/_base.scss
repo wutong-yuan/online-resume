@@ -167,7 +167,7 @@ small {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 
     .avatar {
       max-height: 100px;
@@ -271,7 +271,7 @@ small {
 
         .group {
           display: flex;
-          justify-content: space-between;
+          justify-content: flex-start;
           margin-bottom: 0;
 
           &:not(:last-child) {
@@ -288,12 +288,12 @@ small {
           .group-item {
             display: flex;
             flex-wrap: wrap;
-            justify-content: flex-end;
+            justify-content: flex-start;
             flex-basis: 76%;
             font-size: 12px;
 
             span:not(:last-child)::after {
-              content: "/";
+              content: ",";
               color: $text-third-color;
               margin: 0 0.5em;
             }
