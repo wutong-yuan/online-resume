@@ -203,7 +203,6 @@ skill:
       item:
         - System Design
         - High Availability
-        - Reliability Engineering
         - CI/CD
         - Infrastructure as Code
         - Test Automation
