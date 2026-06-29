@@ -29,15 +29,15 @@ a {
 }
 
 p {
-  line-height: $base-line-height;
+  line-height: 1.0;
   margin-top: 0;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.1rem;
 }
 
 ol, ul {
-  padding-left: 2rem;
+  padding-left: 1.25rem;
   margin-top: 0;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.1rem;
 
   ol, ul {
     margin-bottom: 0;
@@ -58,23 +58,23 @@ small {
 
   background: $wrapper-color;
   max-width: $content-width;
-  margin: $spacing-unit auto;
-  padding: $spacing-unit * 2;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  margin: 8px auto;
+  padding: 12px;
+  box-shadow: none;
 
   section {
     &:not(:last-child) {
-      margin-bottom: $spacing-unit / 2;
+      margin-bottom: 6px;
     }
 
     .section-title {
       display: flex;
       align-items: baseline;
 
-      font-size: $large-font-size;
+      font-size: 16px;
       color: $theme-color;
-      margin-bottom: $spacing-unit / 2;
-      padding: $spacing-unit / 10 0;
+      margin-bottom: 4px;
+      padding: 2px 0;
       border-bottom-color: rgba($theme-color, 0.25);
       border-bottom-width: 1px;
 
@@ -91,12 +91,12 @@ small {
 
     .section-content {
       .description {
-        margin-bottom: $spacing-unit / 2;
+        margin-bottom: 3px;
       }
 
       .items {
         .item {
-          margin-bottom: $spacing-unit / 2;
+          margin-bottom: 3px;
 
           .row {
             display: flex;
@@ -111,7 +111,7 @@ small {
       }
 
       .groups {
-        margin-bottom: $spacing-unit / 2;
+        margin-bottom: 3px;
       }
 
       .location,
@@ -180,7 +180,7 @@ small {
       flex-basis: 100%;
 
       .name {
-        font-size: $huge-font-size;
+        font-size: 24px;
         margin-top: 0;
         margin-bottom: $spacing-unit / 4;
       }
@@ -268,6 +268,7 @@ small {
         .group {
           display: flex;
           justify-content: space-between;
+          margin-bottom: 0;
 
           &:not(:last-child) {
             border-bottom: 1px dashed rgba($text-third-color, 0.25);
