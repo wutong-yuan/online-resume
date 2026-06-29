@@ -296,6 +296,11 @@ small {
               content: ",";
               color: $text-third-color;
               margin: 0 0.5em;
+
+              // This removes any accidental left spacing and applies space ONLY after the comma
+              margin-left: 0 !important;
+              padding-left: 0 !important;
+              margin-right: 0.5em;
             }
           }
         }

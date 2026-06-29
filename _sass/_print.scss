@@ -30,6 +30,11 @@
     margin: 0 !important;
     padding: 0 !important;
     box-shadow: none !important;
+
+    // Compresses the inner gap between sections during rendering
+    section:not(:last-child) {
+      margin-bottom: 2px !important;
+    }
   }
 
   .footer {
