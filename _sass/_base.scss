@@ -344,33 +344,6 @@ small {
   }
 }
 
-.experience {
-  .description {
-    // Level 1: Platform Summary Titles
-    ul {
-      padding-left: 0; 
-
-      > li {
-        list-style-type: disc;
-        font-size: 13px;       /* Keeps default base font size */
-        font-weight: 500;      /* Slightly darker for emphasis */
-      }
-    }
-
-    // Level 2: Core Engineering Accomplishments
-    ol {
-      padding-left: 1.25rem;
-
-      > li {
-        list-style-type: disc;
-        font-size: 11.5px;     /* Smaller font to fit everything on one page */
-        font-weight: 400;      /* Lighter weight for content readability */
-        color: $text-second-color; /* Softens color slightly for scannability */
-      }
-    }
-  }
-}
-
 .footer {
   margin-bottom: $spacing-unit;
   color: $text-second-color;
