@@ -344,21 +344,6 @@ small {
   }
 }
 
-.experience {
-  .section-content {
-    /* Level 1: Main Work Bullets / Platform Titles */
-    > ul > li {
-      font-size: 13px; /* Stays at standard size */
-
-      /* Level 2: Nested Sub-bullets*/
-      > ul > li {
-        font-size: 12px; /* Marginally smaller for clean visual hierarchy */
-        color: $text-second-color; /* Softens color slightly for scannability */
-      }
-    }
-  }
-}
-
 .footer {
   margin-bottom: $spacing-unit;
   color: $text-second-color;
