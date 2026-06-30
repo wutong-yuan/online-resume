@@ -98,21 +98,21 @@ experience:
       location: Cupertino, CA
       description: |
         + __Host Provisioning Service__ *(Full-stack Ruby on Rails + React distributed platform processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
-            + __Led__ the end-to-end __Ruby on Rails framework migration__, modifying 55 files across APIs, core configurations, and **React UI components** to resolve __714 high-priority security/compliance findings__.
-            + __Redesigned__ the service error-handling contract across **both the user interface and backend layers**, eliminating generic 500 exceptions, custom-building error screens with human-readable guidance, and dropping unhandled errors to __0%__[cite: 1, 4].
-            + __Designed__ a cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and unblocking critical launch milestones for dependent service teams[cite: 1].
-            + __Automated__ multi-region full-stack validation using __Python__ across __50 APIs__ and __12 environments__, slashing regression validation time from __~1 week__ to __1 hour__ while expanding negative test case coverage from 0 to 100%[cite: 1, 4].
-            + __Authored__ __3 service runbooks__ and __10 deep-dive technical guides__, improving operational readiness and accelerating engineer onboarding[cite: 1].
+            + __Led__ end-to-end __Ruby on Rails framework migration__, modifying core configurations and **React UI components** to resolve __714 high-priority compliance findings__.
+            + __Redesigned__ the full-stack service error-handling contract, custom-building error screens with human-readable guidance and reducing unhandled errors to __0%__.
+            + __Designed__ a cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and unblocking critical launch milestones for dependent teams.
+            + __automatedated__ multi-region validation using __Python__ across __50 APIs__ and __12 environments__, slashing regression validation time from __1 week to 1 hour__.
+            + __Authored__ __3 service runbooks__ and __10 deep-dive technical guides__, improving operational readiness and accelerating engineer onboarding.
 
-        + __Credential Management Service__ *(Java-based distributed security service managing operational credentials, processing __7K TPS__ across __20+ REST APIs__)*[cite: 1]
-            + __Led__ a cross-team root cause investigation following a __regional outage__ impacting __all customers in the affected region__, collaborating with __three engineering teams__ and __5+ engineers__. Authored the __incident analysis__ document and drove __12 architecture and operational improvements__ to prevent recurring failures[cite: 1].
-            + __Hardened__ infrastructure security by implementing __host login monitoring__ and __automated real-time alarms__, strengthening operational isolation[cite: 1].
-            + __Engineered__ end-to-end __integration testing__ across deployment pipeline stages for __10+ customer-facing APIs__, improving regression detection[cite: 1].
+        + __Credential Management Service__ *(Java-based distributed security service managing operational credentials, processing __7K TPS__ across __20+ REST APIs__)*
+            + __Led__ cross-team root cause investigation following a __regional outage__ with __5+ engineers__; authored the analysis and drove __12 architectural improvements__ to prevent recurring failures.
+            + __Hardened__ infrastructure security by implementing __host login monitoring__ and __automated real-time alarms__ to strengthen operational isolation.
+            + __Engineered__ end-to-end __integration testing__ across deployment pipeline stages for __10+ customer-facing APIs__.
 
-        + __Secure Host Access Platform__ *(Full-stack Java + AWS UI platform serving __32 AWS regions__; processing __1K RPM__ across __20+ REST APIs__)*[cite: 1]
-            + __Architected__ a full-stack user settings persistence system using an **AWS UI design system** frontend backed by __DynamoDB__, enabling low-latency, cross-device and cross-region configuration synchronization[cite: 1].
+        + __Secure Host Access Platform__ *(Full-stack Java + AWS UI platform serving __32 AWS regions__; processing __1K RPM__ across __20+ REST APIs__)*
+            + __Architected__ user settings persistence using an **AWS UI design system** frontend and a __DynamoDB__ backend, enabling low-latency, cross-region configuration synchronization.
         
-        + __Served__ as the __on-call engineer__ for __Host Provisioning Service__, __Credential Management Service__, and __Secure Host Access Platform__, leading major incident investigations and mitigation efforts to improve platform reliability[cite: 1].
+        + __Served__ as primary __on-call engineer__ across all three platforms, leading critical incident investigations and mitigation efforts to improve system reliability.
 
     - company: Amazon Web Services
       link: 'https://aws.amazon.com/'
@@ -121,7 +121,7 @@ experience:
       role: Software Development Engineer Intern
       location: Cupertino, CA
       description: |
-        + __Developed__ a full-stack web application using __Ruby on Rails__ and __React__, exposing __three REST APIs__ that delivered customizable JSON payloads[cite: 1].
+        + __Developed__ a full-stack web application using __Ruby on Rails__ and __React__, exposing __three REST APIs__ to deliver customizable JSON payloads.
 
 project:
   show: false
