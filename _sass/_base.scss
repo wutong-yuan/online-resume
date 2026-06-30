@@ -84,7 +84,7 @@ small {
       }
 
       h2 {
-        font-size: inherit;
+        font-size: 15px;
         margin-bottom: 0;
       }
     }
@@ -105,6 +105,7 @@ small {
           }
 
           .description {
+            font-size: 14px;
             margin-bottom: 0;
           }
         }
@@ -240,7 +241,7 @@ small {
       .items {
         display: flex;
         flex-wrap: wrap;
-        font-size: 12px;
+        font-size: 13px;
 
         .item {
           display: inline-flex;
@@ -337,7 +338,7 @@ small {
 .profile {
   .section-content {
     .description {
-      font-size: 13px;
+      font-size: 14px;
       line-height: 1.25;
       margin-bottom: 2px;
     }
