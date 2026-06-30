@@ -345,26 +345,14 @@ small {
 }
 
 .experience {
-  .description {
-    // Level 1: Platform Summary Titles
-    ul {
-      padding-left: 0; 
+  .section-content {
+    /* Level 1: Main Work Bullets / Platform Titles */
+    > ul > li {
+      font-size: 13px; /* Stays at standard size */
 
-      > li {
-        list-style-type: disc;
-        font-size: 13px;       /* Keeps default base font size */
-        font-weight: 500;      /* Slightly darker for emphasis */
-      }
-    }
-
-    // Level 2: Core Engineering Accomplishments
-    ol {
-      padding-left: 1.25rem;
-
-      > li {
-        list-style-type: disc;
-        font-size: 11.5px;     /* Smaller font to fit everything on one page */
-        font-weight: 400;      /* Lighter weight for content readability */
+      /* Level 2: Nested Sub-bullets*/
+      > ul > li {
+        font-size: 12px; /* Marginally smaller for clean visual hierarchy */
         color: $text-second-color; /* Softens color slightly for scannability */
       }
     }
