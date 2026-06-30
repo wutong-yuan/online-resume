@@ -107,11 +107,11 @@ experience:
         + __Credential Management Service__ *(Java-based distributed security service managing operational credentials, processing __7K TPS__ across __20+ REST APIs__)*
             + __Led__ a cross-team root cause investigation following a __regional outage__ impacting __all customers in the affected region__, collaborating with __three engineering teams__ and __5+ engineers__. Authored the __incident analysis__ document and drove __12 architecture and operational improvements__ to prevent recurring failures.
             + __Hardened__ infrastructure security by implementing __host login monitoring__ and __automated real-time alarms__, strengthening operational isolation.
-            + __Engineered__ end-to-end integration testing across deployment pipeline stages for __10+ customer-facing APIs__, improving regression detection.
+            + __Engineered__ end-to-end __integration testing__ across deployment pipeline stages for __10+ customer-facing APIs__, improving regression detection.
 
         + __Secure Host Access Platform__ *(Java-based platform serving __32 AWS regions__; processing __1K RPM__ across __20+ REST APIs__)*
             + __Architected__ a user settings persistence system backed by __DynamoDB__, enabling cross-device and cross-region low-latency configuration synchronization.
-        + __Served__ as the __ on-call engineer__ for __Host Provisioning Service__, __Credential Management Service__, and __Secure Host Access Platform__, leading major incident investigations and mitigation efforts to improve platform reliability.
+        + __Served__ as the __on-call engineer__ for __Host Provisioning Service__, __Credential Management Service__, and __Secure Host Access Platform__, leading major incident investigations and mitigation efforts to improve platform reliability.
 
     - company: Amazon Web Services
       link: 'https://aws.amazon.com/'
