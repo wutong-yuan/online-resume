@@ -78,7 +78,7 @@ contact:
   strava:                  # useid             | https://www.strava.com/athletes/userid
 
 profile:
-  show: false
+  show: true
   order: 1
   title: Profile
   description: |
