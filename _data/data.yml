@@ -98,11 +98,11 @@ experience:
       location: Cupertino, CA
       description: |
         + __Host Provisioning Service__ *(Ruby on Rails-based distributed platform processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
-            + __Redesigned__ the service error-handling framework across __100+ multi-team APIs__, reducing unhandled 500 errors to __0%__ and eliminating recurring on-call pager incidents.
-            + __Led__ the end-to-end __Ruby on Rails framework migration__, resolving __714 high-priority security/compliance findings__ and unblocking deployment of a __global microservices platform__.
-            + __Designed__ a cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and unblocking critical launch milestones for internal platform teams.
-            + __Automated__ distributed API testing using __Python__ across __50 APIs__ and __12 environments__, reducing regression validation time from __~1 week__ to __60 minutes__.
-            + __Authored__ __3 service runbooks__ and __10 deep-dive wikis__, improving operational readiness and accelerating engineer onboarding.
+            + __Redesigned__ the service error-handling framework across __100+ multi-team APIs__, reducing unhandled 5XX errors to __0%__ and eliminating recurring on-call pager incidents.
+            + __Led__ the end-to-end __Ruby on Rails framework migration__, resolving __714 high-priority security/compliance findings__ and unblocking global deployment of the platform.
+            + __Designed__ a cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and unblocking critical launch milestones for dependent service teams.
+            + __Automated__ API testing using __Python__ across __50 APIs__ and __12 environments__, reducing regression validation time from __~1 week__ to __1 hour__.
+            + __Authored__ __3 service runbooks__ and __10 deep-dive technical guides__, improving operational readiness and accelerating engineer onboarding.
 
         + __Credential Management Service__ *(Java-based distributed security service managing operational credentials, processing __7K TPS__ across __20+ REST APIs__)*
             + __Led__ a cross-team root cause investigation following a __regional outage__ impacting __all customers in the affected region__, collaborating with __three engineering teams__ and __5+ engineers__. Authored the __incident analysis__ document and drove __12 architecture and operational improvements__ to prevent recurring failures.
@@ -111,7 +111,7 @@ experience:
 
         + __Secure Host Access Platform__ *(Java-based platform serving __32 AWS regions__; processing __1K RPM__ across __20+ REST APIs__)*
             + __Architected__ a user settings persistence system backed by __DynamoDB__, enabling cross-device and cross-region low-latency configuration synchronization.
-        + __Served__ as the __Tier-1 on-call engineer__ for __Host Provisioning Service__, __Credential Management Service__, and __Secure Host Access Platform__, leading major incident investigations and mitigation efforts to improve platform reliability.
+        + __Served__ as the __ on-call engineer__ for __Host Provisioning Service__, __Credential Management Service__, and __Secure Host Access Platform__, leading major incident investigations and mitigation efforts to improve platform reliability.
 
     - company: Amazon Web Services
       link: 'https://aws.amazon.com/'
@@ -185,7 +185,6 @@ skill:
     - name: Backend
       item:
         - Ruby on Rails
-        - Java
         - REST APIs
         - Distributed Systems
         - DynamoDB
