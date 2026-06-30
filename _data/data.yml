@@ -97,19 +97,19 @@ experience:
       role: Software Development Engineer
       location: Cupertino, CA
       description: |
-        + __Host Provisioning Service__ *(Full-stack Ruby on Rails + React distributed platform processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
-            + __Led__ end-to-end __Ruby on Rails framework migration__, modifying core configurations and **React UI components** to resolve __714 high-priority compliance findings__.
-            + __Redesigned__ the full-stack service error-handling contract, custom-building error screens with human-readable guidance and reducing unhandled errors to __0%__.
+        + __Host Provisioning Service__ *(Full-stack Ruby on Rails + React distributed platform backed by __MySQL__; processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
+            + __Led__ end-to-end __Ruby on Rails framework migration__, resolving __714 high-priority compliance findings__ and unblocking global deployment of the platform.
+            + __Redesigned__ the service error-handling framework across __100+ multi-team APIs__, reducing unhandled 5XX errors to __0%__ and eliminating recurring on-call pager incidents.
             + __Designed__ a cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and unblocking critical launch milestones for dependent teams.
             + __automatedated__ multi-region validation using __Python__ across __50 APIs__ and __12 environments__, slashing regression validation time from __1 week to 1 hour__.
             + __Authored__ __3 service runbooks__ and __10 deep-dive technical guides__, improving operational readiness and accelerating engineer onboarding.
 
-        + __Credential Management Service__ *(Java-based distributed security service managing operational credentials, processing __7K TPS__ across __20+ REST APIs__)*
+        + __Credential Management Service__ *(Java-based distributed security service backed by __DynamoDB__; managing operational credentials and processing __7K TPS__ across __20+ REST APIs__)*
             + __Led__ cross-team root cause investigation following a __regional outage__ with __5+ engineers__; authored the analysis and drove __12 architectural improvements__ to prevent recurring failures.
             + __Hardened__ infrastructure security by implementing __host login monitoring__ and __automated real-time alarms__ to strengthen operational isolation.
             + __Engineered__ end-to-end __integration testing__ across deployment pipeline stages for __10+ customer-facing APIs__.
 
-        + __Secure Host Access Platform__ *(Full-stack Java + AWS UI platform serving __32 AWS regions__; processing __1K RPM__ across __20+ REST APIs__)*
+        + __Secure Host Access Platform__ *(Full-stack Java + AWS UI platform backed by __DynamoDB__; serving __32 AWS regions__ and processing __1K RPM__ across __20+ REST APIs__)*
             + __Architected__ user settings persistence using an **AWS UI design system** frontend and a __DynamoDB__ backend, enabling low-latency, cross-region configuration synchronization.
         
         + __Served__ as primary __on-call engineer__ across all three platforms, leading critical incident investigations and mitigation efforts to improve system reliability.
@@ -182,7 +182,7 @@ skill:
         - Ruby
         - Python
         - JavaScript
-        - HTML5 / CSS3
+        - HTML / CSS
 
     - name: Frontend
       item:
