@@ -83,7 +83,7 @@ profile:
   title: Profile
   description: |
     description: |
-        __Full Stack Software Engineer__ with __3.5+ years of experience__ delivering __end-to-end features__ for __large-scale distributed systems__ and backend infrastructure at AWS. Proficient in pairing modern frontend frameworks like __React__ and __AWS UI__ with robust backend technologies (__Java, Ruby on Rails__) to deliver high-availability, secure, and intuitive user experiences.
+    __Full Stack Software Engineer__ with __3.5+ years of experience__ delivering __end-to-end features__ for __large-scale distributed systems__ and backend infrastructure at AWS. Proficient in pairing modern frontend frameworks like __React__ and __AWS UI__ with robust backend technologies (__Java, Ruby on Rails__) to deliver high-availability, secure, and intuitive user experiences.
 
 experience:
   show: true
