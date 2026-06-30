@@ -280,7 +280,7 @@ small {
 
           .group-name {
             font-weight: $base-font-weight * 1.50;
-            flex-basis: 25%;
+            flex-basis: 22%;
             font-size: 12px;
             white-space: nowrap;
           }
@@ -289,7 +289,7 @@ small {
             display: flex;
             flex-wrap: wrap;
             justify-content: flex-start;
-            flex-basis: 75;
+            flex-basis: 78%;
             font-size: 12px;
 
             span:not(:last-child)::after {
