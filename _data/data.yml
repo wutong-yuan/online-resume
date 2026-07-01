@@ -82,7 +82,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    Software Development Engineer with __3.5+ years of experience__ building __large-scale distributed systems__ and __backend infrastructure__ at AWS. Experienced in __system design__, __cloud infrastructure__, __service reliability__, and __security engineering__.
+    __Software Development Engineer__ with __3.5+ years of experience__ delivering __end-to-end features__ for __large-scale distributed systems__ and backend infrastructure at AWS. Proficient in pairing modern frontend frameworks like __React__ and __AWS UI__ with robust backend technologies (__Java, Ruby on Rails__) to deliver high-availability, secure, and intuitive user experiences.
 
 experience:
   show: true
@@ -97,21 +97,22 @@ experience:
       role: Software Development Engineer
       location: Cupertino, CA
       description: |
-        + __Host Provisioning Service__ *(Ruby on Rails-based distributed platform processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
+        + __Host Provisioning Service__ *(Full-stack Ruby on Rails + React distributed platform backed by __MySQL__; processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
             + __Redesigned__ the service error-handling framework across __100+ multi-team APIs__, reducing unhandled 5XX errors to __0%__ and eliminating recurring on-call pager incidents.
             + __Led__ the end-to-end __Ruby on Rails framework migration__, resolving __714 high-priority security/compliance findings__ and unblocking global deployment of the platform.
             + __Designed__ a cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and unblocking critical launch milestones for dependent service teams.
             + __Automated__ API testing using __Python__ across __50 APIs__ and __12 environments__, reducing regression validation time from __~1 week__ to __1 hour__.
             + __Authored__ __3 service runbooks__ and __10 deep-dive technical guides__, improving operational readiness and accelerating engineer onboarding.
 
-        + __Credential Management Service__ *(Java-based distributed security service managing operational credentials, processing __7K TPS__ across __20+ REST APIs__)*
+        + __Credential Management Service__ *(Java-based distributed security service backed by __DynamoDB__; managing operational credentials and processing __7K TPS__ across __20+ REST APIs__)*
             + __Led__ a cross-team root cause investigation following a __regional outage__ impacting __all customers in the affected region__, collaborating with __three engineering teams__ and __5+ engineers__. Authored the __incident analysis__ document and drove __12 architecture and operational improvements__ to prevent recurring failures.
             + __Hardened__ infrastructure security by implementing __host login monitoring__ and __automated real-time alarms__, strengthening operational isolation.
             + __Engineered__ end-to-end __integration testing__ across deployment pipeline stages for __10+ customer-facing APIs__, improving regression detection.
 
-        + __Secure Host Access Platform__ *(Java-based platform serving __32 AWS regions__; processing __1K RPM__ across __20+ REST APIs__)*
+        + __Secure Host Access Platform__ *(Full-stack Java + AWS UI platform backed by __DynamoDB__; serving __32 AWS regions__ and processing __1K RPM__ across __20+ REST APIs__)*
             + __Architected__ a user settings persistence system backed by __DynamoDB__, enabling cross-device and cross-region low-latency configuration synchronization.
-        + __Served__ as the __on-call engineer__ for __Host Provisioning Service__, __Credential Management Service__, and __Secure Host Access Platform__, leading major incident investigations and mitigation efforts to improve platform reliability.
+        
+        + __Served__ as primary __on-call engineer__ across all three platforms, leading critical incident investigations and mitigation efforts to improve system reliability.
 
     - company: Amazon Web Services
       link: 'https://aws.amazon.com/'
