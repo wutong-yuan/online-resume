@@ -124,7 +124,7 @@ experience:
         + __Developed__ a full-stack web application using __Ruby on Rails__ and __React__, exposing __three REST APIs__ that delivered customizable JSON payloads.
 
 project:
-  show: false
+  show: true
   order: 3
   title: Projects
   # description: |
@@ -136,11 +136,11 @@ project:
 
   items:
     - name: Movie Recommendation System
-      # link: '#'
-      tags:
-      date: 2020 - 2022
+      tags: [Python, Collaborative Filtering]
+      date: Nov 2021
       description: |
-        Designed and developed collaborative filtering algorithms to predict unknown ratings by learning user preferences from training data.
+        + __Developed__ user-based and item-based collaborative filtering algorithms in __Python__ to predict unknown movie ratings, implementing __Pearson Correlation__, __vector similarity__, and __adjusted cosine similarity__.
+        + __Extended__ the standard algorithm with __Inverse User Frequency__ and __Case Modification__, and analyzed algorithm __accuracy__, __efficiency__, and __runtime__ via __cross-validation__.
 
 skill:
   show: true
