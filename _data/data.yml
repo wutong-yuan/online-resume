@@ -82,8 +82,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    __Software Development Engineer__ with nearly __4 years of experience__ delivering __end-to-end features__ for __large-scale distributed systems__ and backend infrastructure at AWS. Experienced in __system design__, __cloud infrastructure__, __service reliability__, and __security engineering__.
-
+    __Software Development Engineer__ with __4 years of experience__ building and operating __large-scale distributed backend systems__ and platform infrastructure. Proven track record in __automated fleet provisioning__, __bare-metal server lifecycle management__, __high-throughput APIs__, and zero-downtime framework migrations across __34 global regions__. Skilled in __distributed systems resilience__, __Java/Go/Python__, and __automated infrastructure testing__.
 experience:
   show: true
   order: 2
@@ -97,23 +96,23 @@ experience:
       role: Software Development Engineer
       location: Cupertino, CA
       description: |
-        + __Host Provisioning Service__ *(Full-stack Ruby on Rails + React distributed platform backed by __MySQL__; processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
-            + __Redesigned__ the service error-handling framework across __100+ multi-team APIs__, reducing unhandled 5XX errors to __0%__ and eliminating recurring on-call pager incidents.
-            + __Led__ the end-to-end __Ruby on Rails framework migration__, resolving __714 high-priority security/compliance findings__ and unblocking global deployment of the platform.
-            + __Designed and implemented__ a cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and unblocking critical launch milestones for dependent service teams.
-            + __Automated__ API testing using __Python__ across __50 APIs__ and __12 environments__, reducing regression validation time from __~1 week__ to __1 hour__.
-            + __Authored__ __3 service runbooks__ and __10 deep-dive technical guides__, improving operational readiness and accelerating engineer onboarding.
+        + __Host Provisioning & Fleet Infrastructure Platform __ *(Full-stack Ruby on Rails + React distributed platform backed by __MySQL__; processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
+            + __Engineered and scaled__ global __bare-metal fleet provisioning__ and lifecycle operations, executing __8,000 TPS__ across __100+ APIs__ in __34 AWS regions__.
+            + __Redesigned__ service error-handling and failure resiliency patterns across __100+ multi-team APIs__, reducing unhandled 5XX errors to __0%__ and eliminating recurring on-call pager incidents.
+            + __Led__ end-to-end __framework migration__ across global deployment pipelines, resolving __714 high-priority security/compliance findings__ without service downtime.
+            + __Designed and implemented__ cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and continuous deployment for dependent platform services.
+            + __Automated__ API regression testing using __Python__ across __50 APIs__ and __12 environments__, reducing validation runtime from __~1 week__ to __1 hour__.
+            + __Authored__ __3 operational runbooks__ and __10 deep-dive technical architecture guides__, improving operational readiness and accelerating engineer onboarding.
 
-        + __Credential Management Service__ *(Java-based distributed security service backed by __DynamoDB__; managing operational credentials and processing __7K TPS__ across __20+ REST APIs__)*
-            + __Led__ a cross-team root cause investigation following a __regional outage__ impacting __all customers in the affected region__, collaborating with __three engineering teams__ and __5+ engineers__. Authored the __incident analysis__ document and drove __12 architecture and operational improvements__ to prevent recurring failures.
+        + __Credential & Security Management Service__ *(Java-based distributed security service backed by __DynamoDB__; managing operational credentials and processing __7K TPS__ across __20+ REST APIs__)*
+            + __Led__ cross-team root cause investigation following a __regional outage__, collaborating with __3 engineering teams__ and 5+ engineers. Authored the __post-incident analysis__ and drove __12 architecture and operational improvements__ to harden regional failure domains.
             + __Hardened__ infrastructure security by implementing __host login monitoring__ and __automated real-time alarms__, strengthening operational isolation.
-            + __Engineered__ end-to-end __integration testing__ across deployment pipeline stages for __10+ customer-facing APIs__, improving regression detection.
+            + __Engineered__ end-to-end __integration test suites__ across CI/CD deployment pipeline stages for __10+ customer-facing APIs__ to enable safe production rollouts.
 
-        + __Secure Host Access Platform__ *(Full-stack Java + AWS UI platform backed by __DynamoDB__; serving __32 AWS regions__ and processing __1K RPM__ across __20+ REST APIs__)*
-            + __Architected__ and __built__ a user settings persistence system backed by __DynamoDB__, enabling cross-device and cross-region low-latency configuration synchronization.
+        + __Secure Host Access Platform__ *(Go + AWS UI platform backed by __DynamoDB__; serving __32 AWS regions__ and processing __1K RPM__ across __20+ REST APIs__)*
+            + __Architected and built__ a user settings persistence system backed by __DynamoDB__, enabling cross-device and cross-region low-latency configuration synchronization.
         
-        + __Served__ as primary __on-call engineer__ across all three platforms, leading critical incident investigations and mitigation efforts to improve system reliability.
-
+        + __Served__ as primary __on-call engineer__ across all three platforms, leading critical incident response and continuous operational improvements.
     - company: Amazon Web Services
       link: 'https://aws.amazon.com/'
       tags: Internship
