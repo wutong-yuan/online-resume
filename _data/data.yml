@@ -172,41 +172,40 @@ skill:
   #   - name: Skill I
   #     level: 3
 
-groups:
-  - name: Languages
-    item:
-      - Java
-      - Go
-      - Python
-      - Ruby
-      - JavaScript
+  groups:
+    - name: Languages
+      item:
+        - Java
+        - Go
+        - Python
+        - Ruby
+        - JavaScript
 
-  - name: Backend
-    item:
-      - Ruby on Rails
-      - REST APIs
-      - Distributed Systems
-      - DynamoDB
-      - MySQL
+    - name: Backend
+      item:
+        - Ruby on Rails
+        - REST APIs
+        - Distributed Systems
+        - DynamoDB
+        - MySQL
 
-  - name: Cloud
-    item:
-      - AWS
-      - EC2
-      - Lambda
-      - SQS
-      - S3
-      - CloudWatch
-      - CDK
+    - name: Cloud
+      item:
+        - AWS
+        - EC2
+        - Lambda
+        - SQS
+        - S3
+        - CloudWatch
+        - CDK
 
-  - name: Engineering
-    item:
-      - System Design
-      - High Availability
-      - CI/CD
-      - Infrastructure as Code
-      - Test Automation
-
+    - name: Engineering
+      item:
+        - System Design
+        - High Availability
+        - CI/CD
+        - Infrastructure as Code
+        - Test Automation
 
 education:
   show: true
