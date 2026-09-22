@@ -106,7 +106,6 @@ experience:
 
         + __Credential & Security Management Service__ *(__Java__-based distributed security service backed by __DynamoDB__; managing operational credentials and processing __7K TPS__ across __20+ REST APIs__)*
             + __Led__ cross-team root cause investigation following a __regional outage__, collaborating with __3 engineering teams__ and 5+ engineers. Authored the __post-incident analysis__ and drove __12 architecture and operational improvements__ to harden regional failure domains.
-            + __Hardened__ infrastructure security by implementing __host login monitoring__ and __automated real-time alarms__, strengthening operational isolation.
             + __Engineered__ end-to-end __integration test suites__ across CI/CD deployment pipeline stages for __10+ customer-facing APIs__ to enable safe production rollouts.
 
         + __Secure Host Access Platform__ *(__Go__ + AWS UI platform backed by __DynamoDB__; serving __32 AWS regions__ and processing __1K RPM__ across __20+ REST APIs__)*
