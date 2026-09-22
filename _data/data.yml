@@ -96,7 +96,7 @@ experience:
       role: Software Development Engineer
       location: Cupertino, CA
       description: |
-        + __Host Provisioning & Fleet Infrastructure Platform __ *(Full-stack Ruby on Rails + React distributed platform backed by __MySQL__; processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
+        + __Host Provisioning & Fleet Infrastructure Platform__ *(Full-stack Ruby on Rails + React distributed platform backed by __MySQL__; processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
             + __Engineered and scaled__ global __bare-metal fleet provisioning__ and lifecycle operations, executing __8,000 TPS__ across __100+ APIs__ in __34 AWS regions__.
             + __Redesigned__ service error-handling and failure resiliency patterns across __100+ multi-team APIs__, reducing unhandled 5XX errors to __0%__ and eliminating recurring on-call pager incidents.
             + __Led__ end-to-end __framework migration__ across global deployment pipelines, resolving __714 high-priority security/compliance findings__ without service downtime.
