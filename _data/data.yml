@@ -96,7 +96,7 @@ experience:
       role: Software Development Engineer
       location: Cupertino, CA
       description: |
-        + __Host Provisioning & Fleet Infrastructure Platform__ *(Full-stack Ruby on Rails + React distributed platform backed by __MySQL__; processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)
+        + __Host Provisioning & Fleet Infrastructure Platform__ *(Full-stack Ruby on Rails + React distributed platform backed by __MySQL__; processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
             + __Redesigned__ service error-handling and failure resiliency patterns across __100+ multi-team APIs__.
             + __Led__ end-to-end __framework migration__ across global deployment pipelines, resolving __714 high-priority security/compliance findings__ without service downtime.
             + __Designed and implemented__ cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and continuous deployment for dependent platform services.
@@ -173,39 +173,39 @@ skill:
   #     level: 3
 
 groups:
-    - name: Languages
-      item:
-        - Java
-        - Go
-        - Python
-        - Ruby
-        - JavaScript
+  - name: Languages
+    item:
+      - Java
+      - Go
+      - Python
+      - Ruby
+      - JavaScript
 
-    - name: Backend
-      item:
-        - Ruby on Rails
-        - REST APIs
-        - Distributed Systems
-        - DynamoDB
-        - MySQL
+  - name: Backend
+    item:
+      - Ruby on Rails
+      - REST APIs
+      - Distributed Systems
+      - DynamoDB
+      - MySQL
 
-    - name: Cloud
-      item:
-        - AWS
-        - EC2
-        - Lambda
-        - SQS
-        - S3
-        - CloudWatch
-        - CDK
+  - name: Cloud
+    item:
+      - AWS
+      - EC2
+      - Lambda
+      - SQS
+      - S3
+      - CloudWatch
+      - CDK
 
-    - name: Engineering
-      item:
-        - System Design
-        - High Availability
-        - CI/CD
-        - Infrastructure as Code
-        - Test Automation
+  - name: Engineering
+    item:
+      - System Design
+      - High Availability
+      - CI/CD
+      - Infrastructure as Code
+      - Test Automation
 
 
 education:
