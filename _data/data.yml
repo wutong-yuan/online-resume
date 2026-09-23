@@ -83,6 +83,8 @@ profile:
   title: Profile
   description: |
     __Software Development Engineer__ specializing in __large-scale distributed backend systems__ and platform infrastructure. Proven track record in __host provisioning workflows and orchestration__, __high-throughput APIs__, and __zero-downtime framework migrations__ across __34 global regions__. Skilled in __distributed systems resilience__, __Java/Go/Python__, and __automated infrastructure testing__.
+
+experience:
   show: true
   order: 2
   title: Experiences
