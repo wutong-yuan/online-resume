@@ -82,8 +82,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    __Software Development Engineer__ with __4 years of experience__ building and operating __large-scale distributed backend systems__ and platform infrastructure. Proven track record in __automated fleet provisioning__, __bare-metal server lifecycle management__, __high-throughput APIs__, and zero-downtime framework migrations across __34 global regions__. Skilled in __distributed systems resilience__, __Java/Go/Python__, and __automated infrastructure testing__.
-experience:
+    __Software Development Engineer__ specializing in __large-scale distributed backend systems__ and platform infrastructure. Proven track record in __host provisioning workflows and orchestration__, __high-throughput APIs__, and __zero-downtime framework migrations__ across __34 global regions__. Skilled in __distributed systems resilience__, __Java/Go/Python__, and __automated infrastructure testing__.
   show: true
   order: 2
   title: Experiences
