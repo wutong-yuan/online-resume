@@ -82,7 +82,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    __Software Development Engineer__ with __4 years__ designing, building, and operating __large-scale distributed infrastructure__ in production at AWS. Track record of __independently scoping and delivering complex, ambiguous, multi-month projects__ — from first-principles design through __zero-downtime production rollout__ — with __architectural decisions__ adopted across __100+ APIs__ and __34 global regions__. Strong __cross-org communicator__; authored __operational runbooks__ and __architecture guides__ that accelerated engineer onboarding.
+    __Software Development Engineer__ with __4 years__ designing, building, and operating __large-scale distributed backend services__ in production at AWS. Track record in __data consistency__ and __high availability__: __engineered DynamoDB-backed systems__ processing up to __8K TPS__ across __34 AWS regions__, __led__ a __zero-downtime migration__ resolving __714 security/compliance findings__, and __built automated validation infrastructure__ cutting regression testing from __~1 week__ to __1 hour__ across __50 APIs__ and __12 environments__. __Primary on-call engineer__ across three platforms.
 
 experience:
   show: true
@@ -98,10 +98,10 @@ experience:
       location: Cupertino, CA
       description: |
         + __Host Provisioning & Fleet Infrastructure Platform__ *(Full-stack Ruby on Rails + React distributed platform backed by __MySQL__; processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
-            + __Independently scoped and led__ an end-to-end __framework migration__ across global deployment pipelines — an ambiguous, multi-month effort — resolving __714 high-priority security/compliance findings__ with __zero service downtime__.
-            + __Designed and implemented__ cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and continuous deployment for dependent platform services.
-            + __Redesigned__ service error-handling and failure resiliency patterns, with architectural decisions adopted across __100+ multi-team APIs__.
             + __Automated__ API regression testing using __Python__ across __50 APIs__ and __12 environments__, reducing validation runtime from __~1 week__ to __1 hour__.
+            + __Independently scoped and led__ an end-to-end __framework migration__ across global deployment pipelines, resolving __714 high-priority security/compliance findings__ with __zero service downtime__.
+            + __Redesigned__ service error-handling and failure resiliency patterns, with architectural decisions adopted across __100+ multi-team APIs__.
+            + __Designed and implemented__ cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and continuous deployment for dependent platform services.
             + __Authored__ __3 operational runbooks__ and __10 deep-dive technical architecture guides__, improving operational readiness and accelerating engineer onboarding.
 
         + __Credential & Security Management Service__ *(__Java__-based distributed security service backed by __DynamoDB__; managing operational credentials and processing __7K TPS__ across __20+ REST APIs__)*
