@@ -82,7 +82,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    __Software Development Engineer__ with __4 years__ designing and building __large-scale distributed web applications__ and __web services__ in production at AWS. Built __multi-tier, high-volume systems__ operating __24x7__: a fleet provisioning platform serving __100+ REST APIs__ at __8K TPS__ across __34 AWS regions__, and a __Java__-based credential service at __7K TPS__ backed by __DynamoDB__. Track record in __performance optimization__ and __scalability__ — cross-region routing for high availability, failure-resiliency patterns adopted across __100+ multi-team APIs__ — and in engineering quality: __automated validation__ cutting release testing from __~1 week__ to __1 hour__, __CI/CD integration test suites__, and operational runbooks. __Primary on-call engineer__ across three platforms.
+    __Software Development Engineer__ with __4 years__ building __large-scale distributed web applications__ and __services__ at AWS: a fleet provisioning platform with __100+ REST APIs__ at __8K TPS__ across __34 regions__, and a __Java__/__DynamoDB__ credential service at __7K TPS__. Deep in __performance__, __scalability__, and __reliability__ — cross-region high availability, failure-resiliency patterns adopted across __100+ APIs__, __automated validation__ cutting release testing from __~1 week__ to __1 hour__. __Primary on-call__ across three platforms.
 
 experience:
   show: true
