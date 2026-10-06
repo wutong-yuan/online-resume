@@ -82,7 +82,12 @@ profile:
   order: 1
   title: Profile
   description: |
-    __Software Development Engineer__ at __AWS__ experiencing in __high-throughput distributed full stack__ platform services (up to __8K TPS__ across __34__ regions). Experienced in designing extensible __REST APIs__, __orchestrating service workflows__, establishing __CloudWatch operational telemetry__, and __leading cross-functional__ engineering initiatives with zero downtime.
+    profile:
+  show: true
+  order: 1
+  title: Profile
+  description: |
+    __Software Development Engineer__ at __AWS__ with expertise in __resilient__, __high-throughput__ backend infrastructure (up to __8K TPS__ across __34 regions__). __Self-directed__ and __end-to-end owner—led cross-functional__ framework migrations, resolved 700+ security findings, and cut __API__ validation cycles from 1 week to 1 hour. Experienced in both __SQL__ and __NoSQL__ databases.
 
 experience:
   show: true
@@ -97,21 +102,21 @@ experience:
       role: Software Development Engineer
       location: Cupertino, CA
       description: |
-        + __Host Provisioning & Fleet Infrastructure Platform__ *(Full-stack Ruby on Rails + React web application backed by MySQL; backend workflow orchestrator processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
-            + __Redesigned__ error handling across __100+ APIs__; __built__ CloudWatch __dashboards__ tracking top 500 errors and high-error client transactions to define __operational telemetry__ and speed root cause analysis.
-            + __Designed and implemented__ __cross-region__ routing topology during an infrastructure freeze, ensuring high availability for dependent platform services.
-            + __Independently__ scoped and __led an end-to-end cross-functional__ framework migration with __multiple engineering teams__, resolving __714 security/compliance findings__ with __zero service downtime__.
-            + __Automated API__ regression testing using __Python__ across __50 APIs__ and __12 environments__, cutting validation runtime from __~1 week__ to __1 hour__.
-            + __Authored__ __3 operational runbooks__ and __10 technical architecture guides__, improving operational readiness and accelerating engineer onboarding.
+        + __Secure Host Access Platform__ *(Full-stack microservice platform in __Go__ backed by __DynamoDB__; serving __32 AWS regions__ and processing __1K RPM__ across __20+ REST APIs__)*
+            + __Architected and deployed__ full-stack, low-latency user-settings feature across __32 AWS regions__ in __Go__ backed by __DynamoDB__.
 
         + __Credential & Security Management Service__ *(Java-based distributed security microservice backed by __DynamoDB__; managing operational credentials and processing __7K TPS__ across __20+ REST APIs__)*
-            + __Led cross-team__ root cause investigation following a regional outage with __3 engineering teams__ (5+ engineers); authored post-incident analysis and drove __12 architecture/operational fixes__ to harden regional failure domains.
+            + __Led cross-team__ root cause investigations following a regional outage with __3 engineering teams__ (5+ engineers), authoring post-incident analysis and driving __12 critical architectural fixes__ to harden regional fault isolation and security boundaries.
             + __Engineered__ __end-to-end__ integration test suites across CI/CD deployment pipelines for __10+ customer-facing APIs__ to enable safe production rollouts.
 
-        + __Secure Host Access Platform__ *(Full-stack microservice platform in __Go__ backed by __DynamoDB__; serving __32 AWS regions__ and processing 1K RPM across 20+ REST APIs)*
-            + __Led__ __end-to-end design__ and __execution__ of a __full-stack__ user-settings __feature__ in __Go__ backed by __DynamoDB__ and exposed via __REST APIs__, enabling __low-latency__ configuration management.
+        + __Host Provisioning & Fleet Infrastructure Platform__ *(Full-stack Ruby on Rails + React web application backed by MySQL; backend workflow orchestrator processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
+            + __Designed Python-based__ API regression test automation frameworks covering __50 APIs__ across __12 environments__, cutting validation runtime from __~1 week__ to __1 hour__.
+            + __Redesigned__ error handling across __100+ APIs__ and __built__ CloudWatch __dashboards__ tracking top 500 errors to define __operational telemetry__ and accelerate root cause analysis.
+            + __Designed and implemented__ __cross-region__ routing topology during an infrastructure freeze, ensuring high availability for dependent platform services.
+            + __Independently__ scoped and __led an end-to-end cross-functional__ framework migration with __multiple engineering teams__, resolving __714 security/compliance findings__ with __zero service downtime__.
+            + __Authored__ __3 operational runbooks__ and __10 technical architecture guides__, improving operational readiness and accelerating engineer onboarding.
 
-        + __Served__ as primary __on-call engineer__ across all multiple platforms, utilizing __operational metrics__ and __telemetry__ to identify root causes, __lead__ critical incident response, and drive continuous operational improvements.
+        + __Served__ as primary __on-call engineer__ across all platform services, utilizing __operational metrics__ and __telemetry__ to identify root causes, __lead__ critical incident response, and drive continuous operational improvements.
 
     - company: Amazon Web Services
       link: 'https://aws.amazon.com/'
@@ -177,10 +182,10 @@ skill:
   groups:
     - name: Languages
       item:
-        - Python
-        - JavaScript
         - Java
         - Go
+        - Python
+        - JavaScript
         - Ruby
 
     - name: Microservices & APIs
