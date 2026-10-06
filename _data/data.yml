@@ -82,7 +82,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    __Backend-focused Software Development Engineer__ with __4 years__ designing, building, testing, deploying, and operating __scalable backend services__ and __production APIs__ at AWS. __Owned__ platform capabilities serving __100+ REST APIs__ at __8K TPS__ across __34 AWS regions__ — setting __API design__ and failure-resiliency standards adopted by __multiple engineering teams__, driving cross-region __high availability__, and __leading__ a __zero-downtime migration__ resolving __714 security findings__. Strong in __observability__ and operational excellence: __primary on-call engineer__ across three platforms, with runbooks, post-incident improvements, and __CI/CD test automation__ for safe production rollouts.
+    __Software Development Engineer__ with __4 years__ building and operating __large-scale distributed backend infrastructure__ in production at AWS. Built __platform abstractions__ adopted across broad engineering organizations: __failure-resiliency patterns__ standardized across __100+ multi-team APIs__ serving __8K TPS__ across __34 AWS regions__. __Led__ end-to-end technical execution of a __zero-downtime framework migration__ resolving __714 security findings__, and __led__ cross-team incident response driving __12 reliability improvements__ from production failure analysis. Deep in __distributed systems reliability__ and operational excellence — __primary on-call engineer__ across three platforms. Strong __Go__ and __Java__; __DynamoDB__ and __MySQL__ at scale.
 
 experience:
   show: true
@@ -98,19 +98,19 @@ experience:
       location: Cupertino, CA
       description: |
         + __Host Provisioning & Fleet Infrastructure Platform__ *(Full-stack Ruby on Rails + React __web application__ backed by __MySQL__; __backend services__ processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
-            + __Designed and implemented__ cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and continuous deployment for dependent platform services.
             + __Redesigned__ service error-handling and __failure resiliency patterns__, with architectural decisions adopted across __100+ multi-team APIs__.
+            + __Designed and implemented__ cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and continuous deployment for dependent platform services.
             + __Independently scoped and led__ an end-to-end __framework migration__ across global deployment pipelines, resolving __714 high-priority security/compliance findings__ with __zero service downtime__.
             + __Automated__ API regression testing using __Python__ across __50 APIs__ and __12 environments__, reducing validation runtime from __~1 week__ to __1 hour__.
             + __Authored__ __3 operational runbooks__ and __10 deep-dive technical architecture guides__, improving operational readiness and accelerating engineer onboarding.
 
         + __Credential & Security Management Service__ *(__Java__-based distributed security service backed by __DynamoDB__; managing operational credentials and processing __7K TPS__ across __20+ REST APIs__)*
             + __Engineered__ a __Java__-based distributed service backed by __DynamoDB__, managing operational credentials at __7K TPS__ with __high availability__ and data consistency.
-            + __Led__ cross-team root cause investigation following a __regional outage__, collaborating with __3 engineering teams__ and 5+ engineers. Authored the __post-incident analysis__ and drove __12 architecture and operational improvements__ to harden regional failure domains.
+            + __Led__ cross-team root cause investigation following a __regional outage__, analyzing production failure modes with __3 engineering teams__ and 5+ engineers. Authored the __post-incident analysis__ and drove __12 architecture and operational improvements__ to harden regional failure domains.
             + __Engineered__ end-to-end __integration test suites__ across CI/CD deployment pipeline stages for __10+ customer-facing APIs__ to enable safe production rollouts.
 
         + __Secure Host Access Platform__ (Full-stack __Go__ + web UI platform backed by DynamoDB; serving 32 AWS regions and processing 1K RPM across 20+ REST APIs)
-            + __Architected and built__ a user settings persistence system backed by __DynamoDB__, enabling cross-device and cross-region low-latency configuration synchronization.
+            + __Architected and built__ a __full stack__ user-settings service in __Go__ backed by __DynamoDB__ and exposed via __REST APIs__, enabling cross-device and cross-region low-latency configuration synchronization.
 
         + __Served__ as primary __on-call engineer__ across all three platforms, leading critical incident response and continuous operational improvements.
     - company: Amazon Web Services
@@ -185,9 +185,9 @@ skill:
 
     - name: Backend
       item:
-        - REST APIs
-        - API Development
         - Distributed Systems
+        - Backend Infrastructure
+        - RESTful APIs
         - System Design
 
     - name: Data
