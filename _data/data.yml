@@ -82,7 +82,8 @@ profile:
   order: 1
   title: Profile
   description: |
-    __Software Development Engineer__ with __4 years__ building and operating __large-scale distributed backend infrastructure__ in production at AWS. Built __platform abstractions__ adopted across broad engineering organizations: __failure-resiliency patterns__ standardized across __100+ multi-team APIs__ serving __8K TPS__ across __34 AWS regions__. __Led__ end-to-end technical execution of a __zero-downtime framework migration__ resolving __714 security findings__, and __led__ cross-team incident response driving __12 reliability improvements__ from production failure analysis. Deep in __distributed systems reliability__ and operational excellence — __primary on-call engineer__ across three platforms. Strong __Go__ and __Java__; __DynamoDB__ and __MySQL__ at scale.
+summary: |
+  __Software Development Engineer__ at AWS building __distributed infrastructure__ and org-wide __platform abstractions__. Standardized __resiliency patterns__ across __100+ APIs__ at __8K TPS__ in __34 regions__. Operated __DynamoDB__ and __MySQL__ services at __7K TPS__. Led zero-downtime migration fixing __714 security findings__, cut validation from __1 week to 1 hour__, and drove __12 reliability fixes__.
 
 experience:
   show: true
