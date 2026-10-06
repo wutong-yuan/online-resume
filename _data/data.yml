@@ -82,8 +82,7 @@ profile:
   order: 1
   title: Profile
   description: |
-summary: |
-  __Software Development Engineer__ at AWS building __distributed infrastructure__ and org-wide __platform abstractions__. Standardized __resiliency patterns__ across __100+ APIs__ at __8K TPS__ in __34 regions__. Operated __DynamoDB__ and __MySQL__ services at __7K TPS__. Led zero-downtime migration fixing __714 security findings__, cut validation from __1 week to 1 hour__, and drove __12 reliability fixes__.
+    __Software Development Engineer__ at AWS building __distributed infrastructure__ and org-wide __platform abstractions__. Standardized __resiliency patterns__ across __100+ APIs__ at __8K TPS__ in __34 regions__. Operated __DynamoDB__ and __MySQL__ services at __7K TPS__. Led zero-downtime migration fixing __714 security findings__, cut validation from __1 week to 1 hour__, and drove __12 reliability fixes__.
 
 experience:
   show: true
