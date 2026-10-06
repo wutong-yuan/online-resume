@@ -82,7 +82,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    __Software Development Engineer__ at AWS building __distributed infrastructure__ and org-wide __platform abstractions__. Standardized __resiliency patterns__ across __100+ APIs__ at __8K TPS__ in __34 regions__. Operated __DynamoDB__ and __MySQL__ services at __7K TPS__. Led zero-downtime migration fixing __714 security findings__, cut validation from __1 week to 1 hour__, and drove __12 reliability fixes__.
+    __Software Development Engineer__ at AWS building high-throughput distributed backend platform services (up to 8K TPS across 34 regions). Experienced in API resiliency, cross-region routing, zero-downtime framework migrations, and production incident response.
 
 experience:
   show: true
@@ -97,22 +97,21 @@ experience:
       role: Software Development Engineer
       location: Cupertino, CA
       description: |
-        + __Host Provisioning & Fleet Infrastructure Platform__ *(Full-stack Ruby on Rails + React __web application__ backed by __MySQL__; __backend services__ processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
-            + __Redesigned__ service error-handling and __failure resiliency patterns__, with architectural decisions adopted across __100+ multi-team APIs__.
-            + __Designed and implemented__ cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and continuous deployment for dependent platform services.
-            + __Independently scoped and led__ an end-to-end __framework migration__ across global deployment pipelines, resolving __714 high-priority security/compliance findings__ with __zero service downtime__.
-            + __Automated__ API regression testing using __Python__ across __50 APIs__ and __12 environments__, reducing validation runtime from __~1 week__ to __1 hour__.
+        + __Host Provisioning & Fleet Infrastructure Platform__ *(High-throughput microservice platform processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
+            + __Architected and optimized__ high-throughput backend services, designing failure resiliency and error-handling patterns adopted across __100+ multi-team downstream APIs__.
+            + __Engineered__ cross-region dynamic routing and gating topology during infrastructure freezes, ensuring high availability and zero disruption for critical dependent services.
+            + __Independently scoped and led__ an end-to-end framework migration across global delivery pipelines, resolving __714 critical security and compliance vulnerabilities__ with __zero service downtime__.
+            + __Developed__ automated API test suites using __Python__ across __50 APIs__ and __12 deployment environments__, accelerating validation cycles from __1 week to 1 hour__.
             + __Authored__ __3 operational runbooks__ and __10 deep-dive technical architecture guides__, improving operational readiness and accelerating engineer onboarding.
 
-        + __Credential & Security Management Service__ *(__Java__-based distributed security service backed by __DynamoDB__; managing operational credentials and processing __7K TPS__ across __20+ REST APIs__)*
-            + __Engineered__ a __Java__-based distributed service backed by __DynamoDB__, managing operational credentials at __7K TPS__ with __high availability__ and data consistency.
-            + __Led__ cross-team root cause investigation following a __regional outage__, analyzing production failure modes with __3 engineering teams__ and 5+ engineers. Authored the __post-incident analysis__ and drove __12 architecture and operational improvements__ to harden regional failure domains.
+        + __Distributed Credential & Security Management Service__ *(Java-based distributed microservice architecture backed by __DynamoDB__; managing operational credentials and serving __7K TPS__ across __20+ REST APIs__)*
+            + __Led cross-functional post-incident response__ across 3 engineering teams following a regional outage; authored post-incident root-cause analysis and executed __12 structural reliability fixes__ to harden regional fault isolation.
             + __Engineered__ end-to-end __integration test suites__ across CI/CD deployment pipeline stages for __10+ customer-facing APIs__ to enable safe production rollouts.
-
-        + __Secure Host Access Platform__ (Full-stack __Go__ + web UI platform backed by DynamoDB; serving 32 AWS regions and processing 1K RPM across 20+ REST APIs)
-            + __Architected and built__ a __full stack__ user-settings service in __Go__ backed by __DynamoDB__ and exposed via __REST APIs__, enabling cross-device and cross-region low-latency configuration synchronization.
+        + __Secure Host Access Platform__ *(Full-stack microservice design in __Go__ backed by __DynamoDB__; serving __32 AWS regions__ and processing 1K RPM across 20+ REST APIs)*
+            + __Architected and built__ a full-stack user-settings feature and exposed via __REST APIs__, enabling cross-device and cross-region configuration management.
 
         + __Served__ as primary __on-call engineer__ across all three platforms, leading critical incident response and continuous operational improvements.
+
     - company: Amazon Web Services
       link: 'https://aws.amazon.com/'
       tags: Internship
