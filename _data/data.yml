@@ -82,7 +82,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    __Software Development Engineer__ with __4 years__ building __large-scale distributed web applications__ and __services__ at AWS: a fleet provisioning platform with __100+ REST APIs__ at __8K TPS__ across __34 regions__, and a __Java__/__DynamoDB__ credential service at __7K TPS__. Deep in __performance__, __scalability__, and __reliability__ — cross-region high availability, failure-resiliency patterns adopted across __100+ APIs__, __automated validation__ cutting release testing from __~1 week__ to __1 hour__. __Primary on-call__ across three platforms.
+    __Backend-focused Software Development Engineer__ with __4 years__ designing, building, testing, deploying, and operating __scalable backend services__ and __production APIs__ at AWS. __Owned__ platform capabilities serving __100+ REST APIs__ at __8K TPS__ across __34 AWS regions__ — setting __API design__ and failure-resiliency standards adopted by __multiple engineering teams__, driving cross-region __high availability__, and __leading__ a __zero-downtime migration__ resolving __714 security findings__. Strong in __observability__ and operational excellence: __primary on-call engineer__ across three platforms, with runbooks, post-incident improvements, and __CI/CD test automation__ for safe production rollouts.
 
 experience:
   show: true
@@ -97,7 +97,7 @@ experience:
       role: Software Development Engineer
       location: Cupertino, CA
       description: |
-        + __Host Provisioning & Fleet Infrastructure Platform__ *(Full-stack Ruby on Rails + React __web application__ backed by __MySQL__; processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
+        + __Host Provisioning & Fleet Infrastructure Platform__ *(Full-stack Ruby on Rails + React __web application__ backed by __MySQL__; __backend services__ processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
             + __Designed and implemented__ cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and continuous deployment for dependent platform services.
             + __Redesigned__ service error-handling and __failure resiliency patterns__, with architectural decisions adopted across __100+ multi-team APIs__.
             + __Independently scoped and led__ an end-to-end __framework migration__ across global deployment pipelines, resolving __714 high-priority security/compliance findings__ with __zero service downtime__.
@@ -207,7 +207,6 @@ skill:
 
     - name: Engineering
       item:
-        - System Design
         - High Availability
         - CI/CD
         - Test Automation
