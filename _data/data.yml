@@ -82,7 +82,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    __Software Development Engineer__ at __AWS__ experiencing in __high-throughput distributed full stack____ platform services (up to __8K TPS__ across __34__ regions). Experienced in designing extensible __REST APIs__, __orchestrating service workflows__, establishing __CloudWatch operational telemetry__, and __leading cross-functional__ engineering initiatives with zero downtime.
+    __Software Development Engineer__ at __AWS__ experiencing in __high-throughput distributed full stack__ platform services (up to __8K TPS__ across __34__ regions). Experienced in designing extensible __REST APIs__, __orchestrating service workflows__, establishing __CloudWatch operational telemetry__, and __leading cross-functional__ engineering initiatives with zero downtime.
 
 experience:
   show: true
