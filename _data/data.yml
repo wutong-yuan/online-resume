@@ -87,7 +87,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    __Software Development Engineer__ at __AWS__ with expertise in __resilient__, __high-throughput__ backend infrastructure (up to __8K TPS__ across __34 regions__). __Self-directed__ and __end-to-end owner—led cross-functional__ framework migrations, resolved 700+ security findings, and cut __API__ validation cycles from 1 week to 1 hour. Experienced in both __SQL__ and __NoSQL__ databases.
+    __Software Development Engineer__ at __AWS__ with  experience architecting and operating resilient, high-throughput backend infrastructure (up to __8K TPS__ across __34 regions__). Self-directed and end-to-end owner specializing in workflow orchestration, low-latency API design, and distributed storage (__DynamoDB__, __MySQL__).
 
 experience:
   show: true
