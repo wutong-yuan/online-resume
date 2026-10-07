@@ -1,0 +1,117 @@
+basic:
+  name: Yuanyuan Meng
+  avatar:
+    show: false
+    path: /assets/images/profile.png
+
+contact:
+  location: San Jose, CA
+  email: yuanmeng08@gmail.com
+  phone: (408) 930-2587
+  linkedin: https://www.linkedin.com/in/yuanyuan-meng/
+
+profile:
+  show: true
+  order: 1
+  title: Profile
+  description: |
+    __Software Development Engineer__ at __AWS__ with experience __architecting__ and __operating resilient__, __high-throughput microservices__ and data platforms (processing up to __8K TPS__ across __34 global regions__). __Self-directed end-to-end owner__, specializing in low-latency __microservice architectures__, distributed storage (__DynamoDB__, __MySQL__), and fault-tolerant system design.
+
+experience:
+  show: true
+  order: 2
+  title: Experiences
+
+  items:
+    - company: Amazon Web Services
+      link: 'https://aws.amazon.com/'
+      tags: Full-time
+      date: 2022.11 - Present
+      role: Software Development Engineer
+      location: Cupertino, CA
+      description: |
+        + __Host Provisioning & Core Fleet Infrastructure Platform__ *(Full-stack Ruby on Rails + React web application backed by MySQL; backend workflow orchestrator processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__, managing host build, release, repurpose, and retire lifecycles)*
+            + __Redesigned__ error handling adopted across __100+ APIs__; built CloudWatch dashboards tracking top 500 errors and high-error client transactions to define operational telemetry and accelerate root cause analysis.
+            + __Designed and implemented cross-region routing topology during an infrastructure freeze, ensuring high availability for continuous deployment of dependent platform services.
+            + __Independently__ scoped and led an __end-to-end __cross functional__framework migration across global delivery pipelines in collaboration with 2 other engineering teams, resolving __714 high-priority security/compliance findings__ with __zero service downtime__.
+            + __Automated API__ testing using __Python__ across __50 APIs__ and __12 environments__, reducing validation runtime from __1 week__ to __1 hour__.
+            + __Authored__ __3 operational runbooks__ and __10 deep-dive technical architecture guides__, improving operational readiness and accelerating engineer onboarding.
+
+        + __Credential & Security Management Service__ *(Java-based distributed security microservice backed by __DynamoDB__; managing operational credentials and processing __7K TPS__ across __20+ REST APIs__)*
+            + __Led cross-team__ root cause investigation following a regional outage, analyzing production failure modes with __3 engineering teams__ and 5+ engineers; authored post-incident analysis and drove __12 architecture and operational improvements__ to harden regional failure domains.
+            + Engineered end-to-end integration test suites across CI/CD deployment pipeline stages for __10+ customer-facing APIs__ to enable safe production rollouts.
+
+        + __Secure Host Access Platform__ *(Full-stack microservice platform in __Go__ backed by __DynamoDB__; serving __32 AWS regions__ and processing 1K RPM across 20+ REST APIs)*
+            + __Lead__ the __end-to-end design__ and __execution__ of a full-stack user-settings feature in __Go__ backed by __DynamoDB__ and exposed via __REST APIs__, enabling cross-device and cross-region low-latency configuration management.
+
+        + __Served__ as primary __on-call engineer__ across all three platforms, utilizing operational metrics and telemetry to identify root causes, lead critical incident response, and drive continuous operational improvements.
+
+    - company: Amazon Web Services
+      link: 'https://aws.amazon.com/'
+      tags: Internship
+      date: 2022.05 - 2022.07
+      role: Software Development Engineer Intern
+      location: Cupertino, CA
+      description: |
+        + __Developed__ a full-stack web application using __Ruby on Rails__ and __React__, exposing __three REST APIs__ that delivered customizable JSON payloads.
+
+skill:
+  show: true
+  order: 4
+  title: Skills
+
+  groups:
+    - name: Languages
+      item:
+        - Python
+        - JavaScript
+        - Java
+        - Go
+        - Ruby
+
+    - name: Microservices & APIs
+      item:
+        - Distributed Systems
+        - Backend Infrastructure
+        - RESTful APIs
+        - System Design
+        - Workflow Orchestration
+
+    - name: Storage & Databases
+      item:
+        - DynamoDB (NoSQL)
+        - MySQL
+
+    - name: Cloud & Infrastructure
+      item:
+        - AWS (EC2, Lambda, SQS, S3, CloudWatch, CDK)
+
+    - name: Reliability & Telemetry
+      item:
+        - High Availability
+        - CI/CD
+        - Test Automation
+        - Incident Response & Operational Telemetry
+
+education:
+  show: true
+  order: 5
+  title: Education
+
+  items:
+    - institution: Santa Clara University
+      link: 'https://www.scu.edu/'
+      date: 2020 - 2022
+      major: Computer Science and Engineering
+      degree: Master (GPA 3.86)
+
+language:
+  show: false
+  order: 11
+  title: Languages
+
+  items:
+    - idiom: Chinese
+      level: Native
+    - idiom: English
+      level: Professional

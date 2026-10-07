@@ -82,7 +82,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    __Software Development Engineer__ at __AWS__ with experience __architecting__ and __operating resilient__, __high-throughput microservices__ and data platforms (processing up to __8K TPS__ across __34 global regions__). __Self-directed end-to-end owner__ proficient in __Java__, __Go__, and __Python__, specializing in low-latency __microservice architectures__, distributed storage (__DynamoDB__, __MySQL__), and fault-tolerant system design.
+    __Software Development Engineer__ at __AWS__ with experience __architecting__ and __operating resilient__, __high-throughput microservices__ and data platforms (processing up to __8K TPS__ across __34 global regions__). __Self-directed end-to-end owner__, specializing in low-latency __microservice architectures__, distributed storage (__DynamoDB__, __MySQL__), and fault-tolerant system design.
 
 experience:
   show: true
