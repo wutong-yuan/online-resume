@@ -87,7 +87,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    __Software Development Engineer__ at __AWS__ with  experience architecting and operating resilient, high-throughput backend infrastructure (up to __8K TPS__ across __34 regions__). Self-directed and end-to-end owner specializing in workflow orchestration, low-latency API design, and distributed storage (__DynamoDB__, __MySQL__).
+    __Software Development Engineer__ at __AWS__ with  experience architecting and operating __resilient__, __high-throughput backend infrastructure__ (up to __8K TPS__ across __34 regions__). __Self-directed__ and __end-to-end owner__ specializing in __workflow orchestration__, __low-latency API design__, and __distributed storage__ (__DynamoDB__, __MySQL__).
 
 experience:
   show: true
