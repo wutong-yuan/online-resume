@@ -87,7 +87,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    __Software Development Engineer__ at __AWS__ with  experience architecting and operating __resilient__, __high-throughput backend infrastructure__ (up to __8K TPS__ across __34 regions__). __Self-directed__ and __end-to-end owner__ specializing in __workflow orchestration__, __low-latency API design__, and __distributed storage__ (__DynamoDB__, __MySQL__).
+    __Full stack Software Development Engineer__ at __AWS__ with 4 years of experience architecting resilient, high-throughput backend infrastructure and full-stack platforms (up to __8K TPS__ across __34 global regions__). Self-directed end-to-end owner, with deep expertise in low-latency API design, distributed storage (__DynamoDB__, __MySQL__), and operational telemetry. Possesses strong foundational knowledge of __LLMs__ and __Transformer architectures__.
 
 experience:
   show: true
@@ -103,7 +103,7 @@ experience:
       location: Cupertino, CA
       description: |
         + __Secure Host Access Platform__ *(Full-stack microservice platform in __Go__ backed by __DynamoDB__; serving __32 AWS regions__ and processing __1K RPM__ across __20+ REST APIs__)*
-            + __Architected and deployed__ full-stack, low-latency user-settings feature across __32 AWS regions__ in __Go__ backed by __DynamoDB__.
+            + __Architected and deployed__ full-stack, low-latency user-settings feature in __Go__ using an AWS UI frontend and a __DynamoDB__ backend, enabling cross-region configuration synchronization across __32 AWS regions__.
 
         + __Credential & Security Management Service__ *(Java-based distributed security microservice backed by __DynamoDB__; managing operational credentials and processing __7K TPS__ across __20+ REST APIs__)*
             + __Led cross-team__ root cause investigations following a regional outage with __3 engineering teams__ (5+ engineers), authoring post-incident analysis and driving __12 critical architectural fixes__ to harden regional fault isolation and security boundaries.
@@ -111,7 +111,7 @@ experience:
 
         + __Host Provisioning & Fleet Infrastructure Platform__ *(Full-stack Ruby on Rails + React web application backed by MySQL; backend workflow orchestrator processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
             + __Designed Python-based__ API regression test automation frameworks covering __50 APIs__ across __12 environments__, cutting validation runtime from __~1 week__ to __1 hour__.
-            + __Redesigned__ error handling across __100+ APIs__ and __built__ CloudWatch __dashboards__ tracking top 500 errors to define __operational telemetry__ and accelerate root cause analysis.
+            + __Redesigned__ error handling across __100+ APIs__ and __built__ CloudWatch __dashboards__ tracking top 500 errors to define __operational telemetry__ and eliminate unhandled 5XX error spikes.
             + __Designed and implemented__ __cross-region__ routing topology during an infrastructure freeze, ensuring high availability for dependent platform services.
             + __Independently__ scoped and __led an end-to-end cross-functional__ framework migration with __multiple engineering teams__, resolving __714 security/compliance findings__ with __zero service downtime__.
             + __Authored__ __3 operational runbooks__ and __10 technical architecture guides__, improving operational readiness and accelerating engineer onboarding.
@@ -146,47 +146,26 @@ project:
   #     description: |
   #       Designed and developed collaborative filtering algorithms to predict unknown ratings by learning user preferences from training data.
 
+
 skill:
   show: true
   order: 4
   title: Skills
-  # description: |
-  # #   The skills section in a resume is a dedicated section where you can list out the various skills that you possess that are relevant to the job you are applying for. This section allows you to highlight your strengths and demonstrate your capabilities to potential employers.
-
-  # #   The skills section can include both hard skills and soft skills. Hard skills are specific technical abilities or knowledge related to a particular job or industry, such as proficiency in programming languages or experience with certain software programs. Soft skills are more general personal traits and abilities, such as communication skills, leadership, problem-solving, or teamwork.
-
-  # #   When crafting your skills section, it's important to tailor it to the specific job you are applying for, and only include skills that are relevant to the position. This can help catch the attention of the hiring manager and demonstrate that you have the qualifications necessary to succeed in the role.
-
-  # #   There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
-
-  # items:
-  #   - name: Java
-  #     level: 5
-  #   - name: Skill B
-  #     level: 4
-  #   - name: Skill C
-  #     level: 3
-  #   - name: Skill D
-  #     level: 4
-  #   - name: Skill E
-  #     level: 3
-  #   - name: Skill F
-  #     level: 1
-  #   - name: Skill G
-  #     level: 4
-  #   - name: Skill H
-  #     level: 4
-  #   - name: Skill I
-  #     level: 3
 
   groups:
     - name: Languages
       item:
         - Java
-        - Go
         - Python
+        - Go
         - JavaScript
         - Ruby
+
+    - name: AI & ML Foundations
+      item:
+        - LLM Architecture
+        - Transformer Models
+        - AI-Assisted Engineering (Cursor, Kiro)
 
     - name: Microservices & APIs
       item:
