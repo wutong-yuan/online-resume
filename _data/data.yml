@@ -82,7 +82,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    __Full Stack__ Software Engineer with __4 years of experience__ delivering __end-to-end__ features for __large-scale distributed systems__ and __backend infrastructure__ at __AWS__. Proficient in pairing modern frontend frameworks like __React__ and __AWS UI__ with robust backend technologies (__Java__, __Ruby on Rails__) to deliver high-availability, secure, and intuitive user experiences.
+    __Software Engineer__ with __4 years of experience__ architecting and operating __distributed systems__ and __backend infrastructure__ at __AWS__, processing up to __8K TPS__ across __34 global regions__. Expertise in __ API design__, distributed storage (__DynamoDB__, __MySQL__), and __operational telemetry__. Experienced in building __full-stack platforms__, engineering __automated testing frameworks__, and managing __incident response__ and __security compliance__.
 
 experience:
   show: true
