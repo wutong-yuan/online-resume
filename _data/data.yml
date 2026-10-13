@@ -82,7 +82,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    __Software Development Engineer__ at __AWS__ with experience __architecting__ and __operating resilient__, __high-throughput microservices__ and data platforms (processing up to __8K TPS__ across __34 global regions__). __Self-directed end-to-end owner__, specializing in low-latency __microservice architectures__, distributed storage (__DynamoDB__, __MySQL__), and __fault-tolerant system design__.
+    __Full Stack__ Software Engineer with __4 years of experience__ delivering end-to-end features for __large-scale distributed systems__ and backend infrastructure at AWS. Proficient in pairing modern frontend frameworks like __React__ and __AWS UI__ with robust backend technologies (__Java__, __Ruby on Rails__) to deliver high-availability, secure, and intuitive user experiences.
 
 experience:
   show: true
@@ -97,21 +97,21 @@ experience:
       role: Software Development Engineer
       location: Cupertino, CA
       description: |
-        + __Secure Host Access Platform__ *(Full-stack microservice platform in __Go__ backed by __DynamoDB__; serving __32 AWS regions__ and processing __1K RPM__ across __20+ REST APIs__)*
-            + __Architected and deployed__ full-stack, low-latency user-settings feature across __32 AWS regions__ in __Go__ backed by __DynamoDB__.
+        + __Host Provisioning Service__ *(Full-stack Ruby on Rails + React distributed platform backed by MySQL; processing 8K TPS across 100+ REST APIs and 34 AWS regions)*
+            + __Led end-to-end__ Ruby on Rails framework migration, resolving 714 high-priority compliance findings and unblocking global deployment of the platform.
+            + __Redesigned__ the service error-handling framework across __100+ multi-team APIs__, reducing unhandled 5XX errors to 0% and eliminating recurring on-call pager incidents.
+            + __Designed__ a cross-region routing topology during an infrastructure freeze, ensuring high availability and unblocking critical launch milestones for dependent teams.
+            + __Automated__ multi-region validation using Python across 50 __APIs__ and 12 environments, slashing regression validation time from 1 week to 1 hour.
+            + __Authored__ 3 service runbooks and 10 deep-dive technical guides, improving operational readiness and accelerating engineer onboarding.
 
-        + __Credential & Security Management Service__ *(Java-based distributed security microservice backed by __DynamoDB__; managing operational credentials and processing __7K TPS__ across __20+ REST APIs__)*
-            + __Led cross-team__ root cause investigations following a regional outage with __3 engineering teams__ (5+ engineers), authoring post-incident analysis and driving __12 critical architectural fixes__ to harden regional fault isolation and security boundaries.
-            + __Engineered__ end-to-end integration test suites across CI/CD deployment pipelines for __10+ customer-facing APIs__ to enable safe production rollouts.
+        + __Credential Management Service__ *(Java-based distributed security service backed by DynamoDB; managing operational credentials and processing 7K TPS across 20+ REST APIs)*
+            + __Led cross-team__ root cause investigation following a regional outage with 5+ engineers; authored the analysis and drove 12 architectural improvements to prevent recurring failures.
+            + __Engineered end-to-end__ integration testing across deployment pipeline stages for 10+ customer-facing __APIs__.
 
-        + __Host Provisioning & Fleet Infrastructure Platform__ *(Full-stack Ruby on Rails + React web application backed by MySQL; backend workflow orchestrator processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
-            + __Designed Python-based__ API regression test automation frameworks covering __50 APIs__ across __12 environments__, cutting validation runtime from __~1 week__ to __1 hour__.
-            + __Redesigned__ error handling across __100+ APIs__ and __built__ CloudWatch __dashboards__ tracking top 500 errors to define __operational telemetry__ and accelerate root cause analysis.
-            + __Designed and implemented__ cross-region routing topology during an infrastructure freeze, ensuring high availability for dependent platform services.
-            + __Independently__ scoped and __led an end-to-end cross-functional__ framework migration with __multiple engineering teams__, resolving __714 security/compliance findings__ with __zero service downtime__.
-            + __Authored__ __3 operational runbooks__ and __10 technical architecture guides__, improving operational readiness and accelerating engineer onboarding.
+        + __Secure Host Access Platform__ *(Full-stack Go + __AWS UI__ platform backed by __DynamoDB__; serving 32 AWS regions and processing 1K RPM across 20+ REST APIs)*
+            + __Architected__ user settings persistence using an AWS UI design system frontend and a DynamoDB backend, enabling low-latency, cross-region configuration synchronization.
 
-        + __Served__ as primary __on-call engineer__ across all platform services, utilizing __operational metrics__ and __telemetry__ to identify root causes, __lead__ critical incident response, and drive continuous operational improvements.
+        + Served as primary on-call engineer across all three platforms, leading critical incident investigations and mitigation efforts to improve system reliability.
 
     - company: Amazon Web Services
       link: 'https://aws.amazon.com/'
@@ -120,8 +120,7 @@ experience:
       role: Software Development Engineer Intern
       location: Cupertino, CA
       description: |
-        + __Developed__ a full-stack web application using __Ruby on Rails__ and __React__, exposing __three REST APIs__ delivering customizable JSON payloads.
-
+        + __Developed__ a full-stack web application using Ruby on Rails and React, exposing three __REST APIs__ to deliver customizable JSON payloads.
 project:
   show: false
   order: 3
@@ -156,6 +155,20 @@ skill:
         - JavaScript
         - Ruby
 
+    - name: Frontend
+      item:
+        - React
+        - AWS UI
+        - Frontend Testing & Debugging
+
+    - name: Backend & Frameworks
+      item:
+        - Ruby on Rails
+        - REST APIs
+        - Distributed Systems
+        - DynamoDB
+        - MySQL
+
     - name: AI & ML Foundations
       item:
         - LLM Architecture
@@ -175,16 +188,18 @@ skill:
         - DynamoDB (NoSQL)
         - MySQL
 
-    - name: Cloud & Infrastructure
+    - name: Cloud & DevOps
       item:
-        - AWS (EC2, Lambda, SQS, S3, CloudWatch, CDK)
+        - AWS (EC2, Lambda, SQS, S3, CloudWatch)
+        - CDK (Infrastructure as Code)
+        - CI/CD Deployment Pipelines
 
-    - name: Reliability & Telemetry
+    - name: Engineering Standards
       item:
+        - Full-Stack Architecture
+        - System Design
         - High Availability
-        - CI/CD
-        - Test Automation
-        - Incident Response & Operational Telemetry
+        - Test Automation (Python, RSpec, Minitest
 
 education:
   show: true
