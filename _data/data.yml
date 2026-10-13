@@ -82,7 +82,7 @@ profile:
   order: 1
   title: Profile
   description: |
-    __Full Stack__ Software Engineer with __4 years of experience__ delivering end-to-end features for __large-scale distributed systems__ and backend infrastructure at AWS. Proficient in pairing modern frontend frameworks like __React__ and __AWS UI__ with robust backend technologies (__Java__, __Ruby on Rails__) to deliver high-availability, secure, and intuitive user experiences.
+    __Full Stack__ Software Engineer with __4 years of experience__ delivering __end-to-end__ features for __large-scale distributed systems__ and __backend infrastructure__ at __AWS__. Proficient in pairing modern frontend frameworks like __React__ and __AWS UI__ with robust backend technologies (__Java__, __Ruby on Rails__) to deliver high-availability, secure, and intuitive user experiences.
 
 experience:
   show: true
@@ -97,21 +97,21 @@ experience:
       role: Software Development Engineer
       location: Cupertino, CA
       description: |
-        + __Host Provisioning Service__ *(Full-stack Ruby on Rails + React distributed platform backed by MySQL; processing 8K TPS across 100+ REST APIs and 34 AWS regions)*
-            + __Led end-to-end__ Ruby on Rails framework migration, resolving 714 high-priority compliance findings and unblocking global deployment of the platform.
-            + __Redesigned__ the service error-handling framework across __100+ multi-team APIs__, reducing unhandled 5XX errors to 0% and eliminating recurring on-call pager incidents.
-            + __Designed__ a cross-region routing topology during an infrastructure freeze, ensuring high availability and unblocking critical launch milestones for dependent teams.
-            + __Automated__ multi-region validation using Python across 50 __APIs__ and 12 environments, slashing regression validation time from 1 week to 1 hour.
+        + __Host Provisioning Service__ *(__Full-stack Ruby on Rails__ + __React__ __distributed platform__ backed by __MySQL__; processing __8K TPS__ across __100+ REST APIs__ and __34 AWS regions__)*
+            + __Led end-to-end__ Ruby on Rails framework migration, resolving __714__ high-priority compliance findings and __unblocking__ global deployment of the platform.
+            + __Redesigned__ the service error-handling framework across __100+ multi-team APIs__, reducing unhandled 5XX errors to __0%__ and eliminating recurring on-call pager incidents.
+            + __Designed__ a cross-region routing topology during an infrastructure freeze, ensuring __high availability__ and __unblocking__ critical launch milestones for dependent teams.
+            + __Automated__ multi-region validation using Python across 50 __APIs__ and 12 environments, slashing regression validation time from __1 week__ to __1 hour__.
             + __Authored__ 3 service runbooks and 10 deep-dive technical guides, improving operational readiness and accelerating engineer onboarding.
 
-        + __Credential Management Service__ *(Java-based distributed security service backed by DynamoDB; managing operational credentials and processing 7K TPS across 20+ REST APIs)*
+        + __Credential Management Service__ *(__Java-based distributed__ security service backed by __DynamoDB__; managing operational credentials and processing __7K TPS__ across __20+ REST APIs__and __34 AWS regions__)*
             + __Led cross-team__ root cause investigation following a regional outage with 5+ engineers; authored the analysis and drove 12 architectural improvements to prevent recurring failures.
             + __Engineered end-to-end__ integration testing across deployment pipeline stages for 10+ customer-facing __APIs__.
 
-        + __Secure Host Access Platform__ *(Full-stack Go + __AWS UI__ platform backed by __DynamoDB__; serving 32 AWS regions and processing 1K RPM across 20+ REST APIs)*
-            + __Architected__ user settings persistence using an AWS UI design system frontend and a DynamoDB backend, enabling low-latency, cross-region configuration synchronization.
+        + __Secure Host Access Platform__ *(__Full-stack__ Go + __AWS UI__ platform backed by __DynamoDB__; serving __32 AWS__ regions and processing __1K RPM__ across __20+ REST APIs__nd __34 AWS regions__)*
+            + __Architected__ user settings persistence using an __AWS UI__ design system __frontend__ and a __DynamoDB backend__, enabling low-latency, cross-region configuration synchronization.
 
-        + Served as primary on-call engineer across all three platforms, leading critical incident investigations and mitigation efforts to improve system reliability.
+        + Served as __primary on-call__ engineer across all three platforms, leading critical incident investigations and mitigation efforts to improve system reliability.
 
     - company: Amazon Web Services
       link: 'https://aws.amazon.com/'
@@ -120,7 +120,7 @@ experience:
       role: Software Development Engineer Intern
       location: Cupertino, CA
       description: |
-        + __Developed__ a full-stack web application using Ruby on Rails and React, exposing three __REST APIs__ to deliver customizable JSON payloads.
+        + __Developed__ a __full-stack__ web application using Ruby on Rails and React, exposing three __REST APIs__ to deliver customizable JSON payloads.
 project:
   show: false
   order: 3
@@ -169,25 +169,6 @@ skill:
         - DynamoDB
         - MySQL
 
-    - name: AI & ML Foundations
-      item:
-        - LLM Architecture
-        - Transformer Models
-        - AI-Assisted Engineering (Cursor, Kiro)
-
-    - name: Microservices & APIs
-      item:
-        - Distributed Systems
-        - Backend Infrastructure
-        - RESTful APIs
-        - System Design
-        - Workflow Orchestration
-
-    - name: Storage & Databases
-      item:
-        - DynamoDB (NoSQL)
-        - MySQL
-
     - name: Cloud & DevOps
       item:
         - AWS (EC2, Lambda, SQS, S3, CloudWatch)
@@ -199,7 +180,6 @@ skill:
         - Full-Stack Architecture
         - System Design
         - High Availability
-        - Test Automation (Python, RSpec, Minitest
 
 education:
   show: true
