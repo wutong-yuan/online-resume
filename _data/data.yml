@@ -156,27 +156,27 @@ skill:
         - JavaScript
         - Ruby
 
-    - name: Core Infrastructure & Systems
+    - name: Systems & Infra
       item:
         - Distributed Systems
-        - Distributed Storage & Persistence
+        - High Availability
         - REST APIs
-        - High Availability & Multi-Region Fault Tolerance
-        - System Architecture & Design
+        - System Architecture
 
-    - name: Storage & Cloud Infrastructure
+    - name: Data & Cloud
       item:
         - DynamoDB
         - MySQL
-        - AWS (EC2, Lambda, SQS, S3, CloudWatch)
+        - AWS (EC2, Lambda, S3, CloudWatch)
         - Infrastructure as Code
-        - CI/CD Deployment Pipelines
+        - CI/CD Pipelines
 
-    - name: Frontend & Utilities
+    - name: Frontend & Tools
       item:
         - React
         - AWS UI
-        - Frontend Testing & Debugging
+        - Testing & Debugging
+
 
 education:
   show: true
